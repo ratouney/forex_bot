@@ -1,0 +1,27 @@
+|ERROR|2020-09-17 15:36:05,314|Connection error: Not authorized
+|ERROR|2020-09-18 11:28:21,913|Connection error: Your token is not authorized, please contact admin@fxcm.com
+|ERROR|2020-09-19 15:47:46,173|Connection error: Your token is not authorized, please contact admin@fxcm.com
+|WARNING|2020-09-22 09:12:15,298|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-22 09:14:56,811|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-22 09:16:10,962|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-22 09:16:45,960|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-22 09:17:43,971|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-22 09:18:34,228|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-22 09:22:13,410|Got a delete event for orders: {'t': 3, 'orderId': '364825487', 'action': 'D'}.
+|WARNING|2020-09-22 09:22:13,411|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169594939', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 104.633, 'valueDate': '', 'grossPL': -23.61871, 'close': 104.575, 'visiblePL': -5.8, 'isDisabled': False, 'currency': 'USD/JPY', 'isBuy': True, 'amountK': 50, 'currencyPoint': 4.07219, 'time': '09222020072214', 'usedMargin': 832.5, 'OpenOrderRequestTXT': 'FXTS', 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-09-22 09:23:00,242|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 2, 'tradeId': '169547367', 'accountName': '01244307', 'roll': -5.14, 'com': 0, 'open': 10969, 'valueDate': '', 'grossPL': -93.22, 'close': 10422, 'visiblePL': -547, 'currency': 'BTC/USD', 'isBuy': True, 'amountK': 0.02, 'TradeIDOrigin': None, 'CloseOrderID': '364825505', 'CloseOrderReqID': 'EUDEMO_9D79F415AA317F22E053E12B3C0AF8F8_09222020064951560750_EO4-1025', 'CloseOrderRequestTXT': 'FXTS', 'CloseOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,CP,4004]', 'OpenOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,MO,4004]', 'TradeIDRemain': None, 'currencyPoint': 0.00017, 'openTime': '09172020210630', 'closeTime': '09222020072300', 'action': 'I'}.
+|WARNING|2020-09-22 09:23:00,244|Got a delete event for open posi: {'t': 1, 'tradeId': '169547367', 'action': 'D'}
+|WARNING|2020-09-22 09:26:34,345|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-22 09:27:43,361|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-22 09:29:01,670|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-22 09:38:40,676|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-22 09:39:22,721|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-22 09:40:35,573|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-22 09:41:17,177|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-22 09:42:32,766|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-22 09:46:07,643|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-22 09:47:32,720|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-22 09:51:30,904|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-22 09:55:08,917|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-22 09:55:59,885|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-22 09:57:19,414|Default account set to 1244307, to change use set_default_account().
