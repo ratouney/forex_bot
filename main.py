@@ -12,10 +12,17 @@ if s.isConnected():
 active = True
 l = Loader()
 
+prev = None
 while active:
     try:
         i = input("Enter module name : ")
-        l.run(s, i)
+        print("Got [", i, "]")
+        if prev == None or prev != i and i != "":
+            prev = i
+            l.run(s, i)
+        else:
+            l.run(s)
+
     except KeyboardInterrupt:
         print("Closing connection")
         s.close()

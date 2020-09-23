@@ -3,4 +3,6 @@ import pandas as pd
 import datetime as dt
 
 def run(con):
-    print("Current account :", con.get_instruments_for_candles())
+    cand = con.get_candles("XAU/USD", period="M1", number=5)
+    print("fok")
+    print(cand)
