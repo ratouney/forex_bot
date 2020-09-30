@@ -2,7 +2,7 @@ import importlib
 from Session import Session
 from Loader import Loader
 
-s = Session("yourTOKEN")
+s = Session("cffb2229e78fc7db07867b22177fc96907476860")
 
 instrument_list = None
 if s.isConnected():
@@ -28,4 +28,8 @@ while active:
         s.close()
         active = False
         continue
+    except Exception as e:
+        print("Fail : ", e)
+        continue
+
 
