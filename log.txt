@@ -97,3 +97,834 @@
 |ERROR|2020-09-29 17:59:03,360|Error in get_candles: Illegal param. number: 52
 |WARNING|2020-09-30 11:38:24,016|Default account set to 1244307, to change use set_default_account().
 |WARNING|2020-09-30 14:00:14,879|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-30 14:23:33,937|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-09-30 15:07:14,879|Got a insert event for open positions: {'t': 1, 'ratePrecision': 2, 'tradeId': '169738645', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 1896.86, 'valueDate': '', 'grossPL': -37.59206, 'close': 1896.42, 'visiblePL': -44, 'isDisabled': False, 'currency': 'XAU/USD', 'isBuy': True, 'amountK': 0.1, 'currencyPoint': 0.00085, 'time': '09302020130715', 'usedMargin': 4500, 'OpenOrderRequestTXT': 'FXTS', 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-09-30 15:07:14,904|Got a delete event for orders: {'t': 3, 'orderId': '365320108', 'action': 'D'}.
+|WARNING|2020-09-30 15:08:47,413|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169738721', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 123.684, 'valueDate': '', 'grossPL': -13.74282, 'close': 123.701, 'visiblePL': -1.7, 'isDisabled': False, 'currency': 'EUR/JPY', 'isBuy': False, 'amountK': 100, 'currencyPoint': 8.08456, 'time': '09302020130848', 'usedMargin': 1665, 'OpenOrderRequestTXT': 'FXTS', 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-09-30 15:08:47,416|Got a delete event for orders: {'t': 3, 'orderId': '365320322', 'action': 'D'}.
+|WARNING|2020-09-30 15:09:30,127|Got a insert event for open positions: {'t': 1, 'ratePrecision': 5, 'tradeId': '169738739', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 0.92242, 'valueDate': '', 'grossPL': -12.03943, 'close': 0.92229, 'visiblePL': -1.3, 'isDisabled': False, 'currency': 'USD/CHF', 'isBuy': True, 'amountK': 100, 'currencyPoint': 9.2611, 'time': '09302020130930', 'usedMargin': 1665, 'OpenOrderRequestTXT': 'FXTS', 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-09-30 15:09:30,130|Got a delete event for orders: {'t': 3, 'orderId': '365320354', 'action': 'D'}.
+|WARNING|2020-09-30 15:48:41,115|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 2, 'tradeId': '169738645', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 1896.86, 'valueDate': '', 'grossPL': -827.9, 'close': 1887.18, 'visiblePL': -968, 'currency': 'XAU/USD', 'isBuy': True, 'amountK': 0.1, 'TradeIDOrigin': None, 'CloseOrderID': '365322742', 'CloseOrderReqID': 'EUDEMO_9D79F96A85E27F1EE053E12B3C0AFAA0_09302020093751454756_3IE-6003', 'CloseOrderRequestTXT': 'FXTS', 'CloseOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,CP,4004]', 'OpenOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,MO,4004]', 'TradeIDRemain': None, 'currencyPoint': 0.00086, 'openTime': '09302020130715', 'closeTime': '09302020134841', 'action': 'I'}.
+|WARNING|2020-09-30 15:48:41,121|Got a delete event for open posi: {'t': 1, 'tradeId': '169738645', 'action': 'D'}
+|WARNING|2020-09-30 16:16:31,077|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169738721', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 123.684, 'valueDate': '', 'grossPL': -121.13, 'close': 123.834, 'visiblePL': -15, 'currency': 'EUR/JPY', 'isBuy': False, 'amountK': 100, 'TradeIDOrigin': None, 'CloseOrderID': '365322859', 'CloseOrderReqID': 'EUDEMO_9D79F96A85E27F1EE053E12B3C0AFAA0_09302020093751454756_3IE-6018', 'CloseOrderRequestTXT': 'FXTS', 'CloseOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,PSL,4004]', 'OpenOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,MO,4004]', 'TradeIDRemain': None, 'currencyPoint': 8.07614, 'openTime': '09302020130848', 'closeTime': '09302020141631', 'action': 'I'}.
+|WARNING|2020-09-30 16:16:31,078|Got a delete event for open posi: {'t': 1, 'tradeId': '169738721', 'action': 'D'}
+|WARNING|2020-09-30 16:44:52,830|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 5, 'tradeId': '169738739', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 0.92242, 'valueDate': '', 'grossPL': -166.73, 'close': 0.92062, 'visiblePL': -18, 'currency': 'USD/CHF', 'isBuy': True, 'amountK': 100, 'TradeIDOrigin': None, 'CloseOrderID': '365322704', 'CloseOrderReqID': 'EUDEMO_9D79F96A85E27F1EE053E12B3C0AFAA0_09302020093751454756_3IE-5981', 'CloseOrderRequestTXT': 'FXTS', 'CloseOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,PSL,4004]', 'OpenOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,MO,4004]', 'TradeIDRemain': None, 'currencyPoint': 9.26239, 'openTime': '09302020130930', 'closeTime': '09302020144453', 'action': 'I'}.
+|WARNING|2020-09-30 16:44:52,833|Got a delete event for open posi: {'t': 1, 'tradeId': '169738739', 'action': 'D'}
+|WARNING|2020-09-30 17:49:10,620|Got a insert event for open positions: {'t': 1, 'ratePrecision': 2, 'tradeId': '169741733', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 1896.4, 'valueDate': '', 'grossPL': -0.36647, 'close': 1895.97, 'visiblePL': -43, 'isDisabled': False, 'currency': 'XAU/USD', 'isBuy': True, 'amountK': 0.001, 'currencyPoint': 1e-05, 'time': '09302020154911', 'usedMargin': 45, 'OpenOrderRequestTXT': 'FXTS', 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-09-30 17:49:10,629|Got a delete event for orders: {'t': 3, 'orderId': '365331488', 'action': 'D'}.
+|WARNING|2020-10-01 10:12:30,025|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-01 11:28:42,668|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-01 11:57:04,137|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169752414', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 115.109, 'valueDate': '', 'grossPL': -22.25932, 'close': 115.086, 'visiblePL': -2.3, 'isDisabled': False, 'currency': 'CHF/JPY', 'isBuy': True, 'amountK': 120, 'currencyPoint': 9.67797, 'time': '10012020095704', 'usedMargin': 2197.8, 'OpenOrderRequestTXT': 'FXTS', 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-01 11:57:04,143|Got a delete event for orders: {'t': 3, 'orderId': '365368600', 'action': 'D'}.
+|WARNING|2020-10-01 12:05:11,261|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169752527', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 124.021, 'valueDate': '', 'grossPL': -0.16935, 'close': 124, 'visiblePL': -2.1, 'isDisabled': False, 'currency': 'EUR/JPY', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.08064, 'time': '10012020100512', 'usedMargin': 16.65, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-01 12:05:11,264|Got a delete event for orders: {'t': 3, 'orderId': '365369017', 'action': 'D'}.
+|WARNING|2020-10-01 12:13:45,119|Got a insert event for open positions: {'t': 1, 'ratePrecision': 5, 'tradeId': '169752634', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 0.91464, 'valueDate': '', 'grossPL': -0.24059, 'close': 0.91442, 'visiblePL': -2.2, 'isDisabled': False, 'currency': 'EUR/GBP', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.10935, 'time': '10012020101345', 'usedMargin': 16.65, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-01 12:13:45,134|Got a delete event for orders: {'t': 3, 'orderId': '365369422', 'action': 'D'}.
+|WARNING|2020-10-01 12:19:35,931|Default account set to 1244307, to change use set_default_account().
+|ERROR|2020-10-01 12:20:43,783|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 12:20:43,783|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 12:20:43,783|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer rGj0baLh73S-w61_AFxDcffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 12:20:43,783|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 12:20:43,783|Bearer token: Bearer rGj0baLh73S-w61_AFxDcffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 12:20:43,783|Connection status: established
+|ERROR|2020-10-01 12:20:43,783|Socket session id: rGj0baLh73S-w61_AFxD
+|ERROR|2020-10-01 12:20:43,783|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 12:20:43,991|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 12:20:43,991|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 12:20:43,991|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer rGj0baLh73S-w61_AFxDcffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 12:20:43,991|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 12:20:43,991|Bearer token: Bearer rGj0baLh73S-w61_AFxDcffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 12:20:43,991|Connection status: established
+|ERROR|2020-10-01 12:20:43,991|Socket session id: rGj0baLh73S-w61_AFxD
+|ERROR|2020-10-01 12:20:43,991|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 12:21:44,722|Server reports an error: {'executed': False, 'error': '{"code":2,"message":"Amount is too large","parameters":["1"]}'}.
+|ERROR|2020-10-01 12:21:44,722|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 12:21:44,722|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer rGj0baLh73S-w61_AFxDcffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '68'}
+|ERROR|2020-10-01 12:21:44,722|Params: {'trade_id': 169750767, 'amount': 45.0, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 12:21:44,722|Bearer token: Bearer rGj0baLh73S-w61_AFxDcffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 12:21:44,722|Connection status: established
+|ERROR|2020-10-01 12:21:44,722|Socket session id: rGj0baLh73S-w61_AFxD
+|ERROR|2020-10-01 12:21:44,722|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":2,\"message\":\"Amount is too large\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 12:21:44,916|Server reports an error: {'executed': False, 'error': '{"code":2,"message":"Amount is too large","parameters":["1"]}'}.
+|ERROR|2020-10-01 12:21:44,916|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 12:21:44,916|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer rGj0baLh73S-w61_AFxDcffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '68'}
+|ERROR|2020-10-01 12:21:44,916|Params: {'trade_id': 169741733, 'amount': 45.0, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 12:21:44,916|Bearer token: Bearer rGj0baLh73S-w61_AFxDcffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 12:21:44,916|Connection status: established
+|ERROR|2020-10-01 12:21:44,916|Socket session id: rGj0baLh73S-w61_AFxD
+|ERROR|2020-10-01 12:21:44,916|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":2,\"message\":\"Amount is too large\",\"parameters\":[\"1\"]}"},"data":{}}.
+|WARNING|2020-10-01 12:23:20,077|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169752414', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 115.109, 'valueDate': '', 'grossPL': -78.38, 'close': 115.028, 'visiblePL': -8.1, 'currency': 'CHF/JPY', 'isBuy': True, 'amountK': 120, 'TradeIDOrigin': None, 'CloseOrderID': '365369834', 'CloseOrderReqID': 'EUDEMO_9D7A3BFF42C77F24E053E12B3C0ADD34_10012020080752656854_CG7-3349', 'CloseOrderRequestTXT': 'FXTS', 'CloseOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,CP,4004]', 'OpenOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,MO,4004]', 'TradeIDRemain': None, 'currencyPoint': 9.67637, 'openTime': '10012020095704', 'closeTime': '10012020102320', 'action': 'I'}.
+|WARNING|2020-10-01 12:23:20,079|Got a delete event for open posi: {'t': 1, 'tradeId': '169752414', 'action': 'D'}
+|ERROR|2020-10-01 12:46:20,386|Server reports an error: {'executed': False, 'error': '{"code":2,"message":"Amount is too large","parameters":["1"]}'}.
+|ERROR|2020-10-01 12:46:20,386|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 12:46:20,386|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer rGj0baLh73S-w61_AFxDcffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 12:46:20,386|Params: {'trade_id': 169752634, 'amount': 16.65, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 12:46:20,386|Bearer token: Bearer rGj0baLh73S-w61_AFxDcffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 12:46:20,386|Connection status: established
+|ERROR|2020-10-01 12:46:20,386|Socket session id: rGj0baLh73S-w61_AFxD
+|ERROR|2020-10-01 12:46:20,386|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":2,\"message\":\"Amount is too large\",\"parameters\":[\"1\"]}"},"data":{}}.
+|WARNING|2020-10-01 12:50:17,973|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 5, 'tradeId': '169752634', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 0.91464, 'valueDate': '', 'grossPL': -0.34, 'close': 0.91433, 'visiblePL': -3.1, 'currency': 'EUR/GBP', 'isBuy': True, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365370760', 'CloseOrderReqID': 'Request-2884102', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.10936, 'openTime': '10012020101345', 'closeTime': '10012020105018', 'action': 'I'}.
+|WARNING|2020-10-01 12:50:17,973|Got a delete event for open posi: {'t': 1, 'tradeId': '169752634', 'action': 'D'}
+|WARNING|2020-10-01 12:50:53,335|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-01 12:52:34,535|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-01 12:53:11,376|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-01 12:53:51,314|Got a delete event for orders: {'t': 3, 'orderId': '365370941', 'action': 'D'}.
+|WARNING|2020-10-01 12:53:51,330|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169753080', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 135.55, 'valueDate': '', 'grossPL': -0.18555, 'close': 135.573, 'visiblePL': -2.3, 'isDisabled': False, 'currency': 'GBP/JPY', 'isBuy': False, 'amountK': 1, 'currencyPoint': 0.08068, 'time': '10012020105351', 'usedMargin': 19.98, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-01 12:54:38,950|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169753085', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 114.972, 'valueDate': '', 'grossPL': -0.21779, 'close': 114.999, 'visiblePL': -2.7, 'isDisabled': False, 'currency': 'CHF/JPY', 'isBuy': False, 'amountK': 1, 'currencyPoint': 0.08066, 'time': '10012020105439', 'usedMargin': 18.315, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-01 12:54:38,966|Got a delete event for orders: {'t': 3, 'orderId': '365370947', 'action': 'D'}.
+|WARNING|2020-10-01 12:55:03,378|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169753080', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 135.55, 'valueDate': '', 'grossPL': -0.58, 'close': 135.622, 'visiblePL': -7.2, 'currency': 'GBP/JPY', 'isBuy': False, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365370953', 'CloseOrderReqID': 'Request-2887674', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.08064, 'openTime': '10012020105351', 'closeTime': '10012020105504', 'action': 'I'}.
+|WARNING|2020-10-01 12:55:03,378|Got a delete event for open posi: {'t': 1, 'tradeId': '169753080', 'action': 'D'}
+|ERROR|2020-10-01 12:59:49,169|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 12:59:49,169|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 12:59:49,169|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 12:59:49,169|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 12:59:49,169|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 12:59:49,169|Connection status: established
+|ERROR|2020-10-01 12:59:49,169|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 12:59:49,169|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 12:59:49,415|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 12:59:49,415|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 12:59:49,415|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 12:59:49,415|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 12:59:49,415|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 12:59:49,415|Connection status: established
+|ERROR|2020-10-01 12:59:49,415|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 12:59:49,415|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:00:12,598|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:00:12,598|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:00:12,598|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:00:12,598|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:00:12,598|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:00:12,598|Connection status: established
+|ERROR|2020-10-01 13:00:12,598|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:00:12,598|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:00:12,768|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:00:12,768|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:00:12,768|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:00:12,768|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:00:12,768|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:00:12,768|Connection status: established
+|ERROR|2020-10-01 13:00:12,768|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:00:12,768|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:00:35,901|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:00:35,901|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:00:35,901|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:00:35,901|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:00:35,901|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:00:35,901|Connection status: established
+|ERROR|2020-10-01 13:00:35,901|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:00:35,901|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:00:36,120|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:00:36,120|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:00:36,120|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:00:36,120|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:00:36,120|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:00:36,120|Connection status: established
+|ERROR|2020-10-01 13:00:36,120|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:00:36,120|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:00:59,370|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:00:59,370|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:00:59,370|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:00:59,370|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:00:59,370|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:00:59,370|Connection status: established
+|ERROR|2020-10-01 13:00:59,370|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:00:59,370|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:00:59,542|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:00:59,542|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:00:59,542|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:00:59,542|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:00:59,542|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:00:59,542|Connection status: established
+|ERROR|2020-10-01 13:00:59,542|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:00:59,542|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:01:22,687|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:01:22,687|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:01:22,687|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:01:22,687|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:01:22,687|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:01:22,687|Connection status: established
+|ERROR|2020-10-01 13:01:22,687|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:01:22,687|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:01:22,890|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:01:22,890|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:01:22,890|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:01:22,890|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:01:22,890|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:01:22,890|Connection status: established
+|ERROR|2020-10-01 13:01:22,890|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:01:22,890|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:01:46,681|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:01:46,681|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:01:46,681|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:01:46,681|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:01:46,681|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:01:46,681|Connection status: established
+|ERROR|2020-10-01 13:01:46,681|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:01:46,681|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:01:46,859|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:01:46,859|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:01:46,859|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:01:46,859|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:01:46,859|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:01:46,859|Connection status: established
+|ERROR|2020-10-01 13:01:46,859|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:01:46,859|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|WARNING|2020-10-01 13:04:50,452|Got a insert event for open positions: {'t': 1, 'ratePrecision': 5, 'tradeId': '169753178', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 0.66318, 'valueDate': '', 'grossPL': -0.1533, 'close': 0.66336, 'visiblePL': -1.8, 'isDisabled': False, 'currency': 'NZD/USD', 'isBuy': False, 'amountK': 1, 'currencyPoint': 0.08516, 'time': '10012020110451', 'usedMargin': 17.5, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-01 13:04:50,457|Got a delete event for orders: {'t': 3, 'orderId': '365371216', 'action': 'D'}.
+|ERROR|2020-10-01 13:05:14,360|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 50","parameters":["50"]}'}.
+|ERROR|2020-10-01 13:05:14,360|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-01 13:05:14,360|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '134'}
+|ERROR|2020-10-01 13:05:14,360|Params: {'account_id': 1244307, 'symbol': 'XAG/USD', 'is_buy': 'false', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2020-10-01 13:05:14,360|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:05:14,360|Connection status: established
+|ERROR|2020-10-01 13:05:14,360|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:05:14,360|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 50\",\"parameters\":[\"50\"]}"},"data":{}}.
+|WARNING|2020-10-01 13:05:14,360|Missing orderId in servers answer.
+|ERROR|2020-10-01 13:05:37,496|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 50","parameters":["50"]}'}.
+|ERROR|2020-10-01 13:05:37,496|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-01 13:05:37,496|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '134'}
+|ERROR|2020-10-01 13:05:37,496|Params: {'account_id': 1244307, 'symbol': 'XAG/USD', 'is_buy': 'false', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2020-10-01 13:05:37,496|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:05:37,496|Connection status: established
+|ERROR|2020-10-01 13:05:37,496|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:05:37,496|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 50\",\"parameters\":[\"50\"]}"},"data":{}}.
+|WARNING|2020-10-01 13:05:37,496|Missing orderId in servers answer.
+|ERROR|2020-10-01 13:06:00,813|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 50","parameters":["50"]}'}.
+|ERROR|2020-10-01 13:06:00,813|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-01 13:06:00,813|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '134'}
+|ERROR|2020-10-01 13:06:00,813|Params: {'account_id': 1244307, 'symbol': 'XAG/USD', 'is_buy': 'false', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2020-10-01 13:06:00,813|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:06:00,813|Connection status: established
+|ERROR|2020-10-01 13:06:00,813|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:06:00,813|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 50\",\"parameters\":[\"50\"]}"},"data":{}}.
+|WARNING|2020-10-01 13:06:00,813|Missing orderId in servers answer.
+|ERROR|2020-10-01 13:06:23,878|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 50","parameters":["50"]}'}.
+|ERROR|2020-10-01 13:06:23,878|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-01 13:06:23,878|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '134'}
+|ERROR|2020-10-01 13:06:23,878|Params: {'account_id': 1244307, 'symbol': 'XAG/USD', 'is_buy': 'false', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2020-10-01 13:06:23,878|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:06:23,878|Connection status: established
+|ERROR|2020-10-01 13:06:23,878|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:06:23,878|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 50\",\"parameters\":[\"50\"]}"},"data":{}}.
+|WARNING|2020-10-01 13:06:23,878|Missing orderId in servers answer.
+|ERROR|2020-10-01 13:06:47,218|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:06:47,218|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:06:47,218|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:06:47,218|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:06:47,218|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:06:47,218|Connection status: established
+|ERROR|2020-10-01 13:06:47,218|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:06:47,218|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:06:47,485|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:06:47,500|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:06:47,500|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:06:47,500|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:06:47,500|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:06:47,500|Connection status: established
+|ERROR|2020-10-01 13:06:47,500|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:06:47,500|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:06:47,673|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 50","parameters":["50"]}'}.
+|ERROR|2020-10-01 13:06:47,673|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-01 13:06:47,673|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '134'}
+|ERROR|2020-10-01 13:06:47,673|Params: {'account_id': 1244307, 'symbol': 'XAG/USD', 'is_buy': 'false', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2020-10-01 13:06:47,673|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:06:47,673|Connection status: established
+|ERROR|2020-10-01 13:06:47,673|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:06:47,673|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 50\",\"parameters\":[\"50\"]}"},"data":{}}.
+|WARNING|2020-10-01 13:06:47,673|Missing orderId in servers answer.
+|ERROR|2020-10-01 13:07:10,914|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:07:10,914|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:07:10,914|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:07:10,914|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:07:10,914|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:07:10,914|Connection status: established
+|ERROR|2020-10-01 13:07:10,914|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:07:10,914|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:07:11,136|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:07:11,136|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:07:11,136|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:07:11,136|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:07:11,136|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:07:11,136|Connection status: established
+|ERROR|2020-10-01 13:07:11,136|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:07:11,136|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:07:11,341|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 50","parameters":["50"]}'}.
+|ERROR|2020-10-01 13:07:11,341|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-01 13:07:11,341|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '134'}
+|ERROR|2020-10-01 13:07:11,341|Params: {'account_id': 1244307, 'symbol': 'XAG/USD', 'is_buy': 'false', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2020-10-01 13:07:11,341|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:07:11,341|Connection status: established
+|ERROR|2020-10-01 13:07:11,341|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:07:11,341|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 50\",\"parameters\":[\"50\"]}"},"data":{}}.
+|WARNING|2020-10-01 13:07:11,341|Missing orderId in servers answer.
+|ERROR|2020-10-01 13:07:34,743|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:07:34,743|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:07:34,743|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:07:34,743|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:07:34,743|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:07:34,743|Connection status: established
+|ERROR|2020-10-01 13:07:34,743|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:07:34,743|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:07:34,938|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:07:34,938|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:07:34,938|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:07:34,938|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:07:34,938|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:07:34,938|Connection status: established
+|ERROR|2020-10-01 13:07:34,938|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:07:34,938|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:07:35,169|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 50","parameters":["50"]}'}.
+|ERROR|2020-10-01 13:07:35,169|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-01 13:07:35,169|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '134'}
+|ERROR|2020-10-01 13:07:35,169|Params: {'account_id': 1244307, 'symbol': 'XAG/USD', 'is_buy': 'false', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2020-10-01 13:07:35,169|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:07:35,169|Connection status: established
+|ERROR|2020-10-01 13:07:35,169|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:07:35,169|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 50\",\"parameters\":[\"50\"]}"},"data":{}}.
+|WARNING|2020-10-01 13:07:35,169|Missing orderId in servers answer.
+|ERROR|2020-10-01 13:07:59,156|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:07:59,156|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:07:59,156|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:07:59,156|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:07:59,156|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:07:59,156|Connection status: established
+|ERROR|2020-10-01 13:07:59,156|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:07:59,156|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:07:59,330|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:07:59,330|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:07:59,330|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:07:59,330|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:07:59,330|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:07:59,330|Connection status: established
+|ERROR|2020-10-01 13:07:59,330|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:07:59,330|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:08:03,268|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 50","parameters":["50"]}'}.
+|ERROR|2020-10-01 13:08:03,268|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-01 13:08:03,268|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '134'}
+|ERROR|2020-10-01 13:08:03,268|Params: {'account_id': 1244307, 'symbol': 'XAG/USD', 'is_buy': 'false', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2020-10-01 13:08:03,268|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:08:03,268|Connection status: established
+|ERROR|2020-10-01 13:08:03,268|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:08:03,268|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 50\",\"parameters\":[\"50\"]}"},"data":{}}.
+|WARNING|2020-10-01 13:08:03,268|Missing orderId in servers answer.
+|WARNING|2020-10-01 13:08:26,702|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 5, 'tradeId': '169753178', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 0.66318, 'valueDate': '', 'grossPL': -0.5, 'close': 0.66377, 'visiblePL': -5.9, 'currency': 'NZD/USD', 'isBuy': False, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365371392', 'CloseOrderReqID': 'Request-2897401', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.08514, 'openTime': '10012020110451', 'closeTime': '10012020110827', 'action': 'I'}.
+|WARNING|2020-10-01 13:08:26,702|Got a delete event for open posi: {'t': 1, 'tradeId': '169753178', 'action': 'D'}
+|ERROR|2020-10-01 13:08:50,122|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:08:50,126|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:08:50,126|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:08:50,127|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:08:50,128|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:08:50,128|Connection status: established
+|ERROR|2020-10-01 13:08:50,129|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:08:50,129|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:08:50,304|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:08:50,304|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:08:50,304|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:08:50,304|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:08:50,304|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:08:50,304|Connection status: established
+|ERROR|2020-10-01 13:08:50,304|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:08:50,304|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:09:13,863|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:09:13,863|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:09:13,863|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:09:13,863|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:09:13,863|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:09:13,863|Connection status: established
+|ERROR|2020-10-01 13:09:13,863|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:09:13,863|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:09:14,059|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:09:14,059|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:09:14,059|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:09:14,059|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:09:14,059|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:09:14,059|Connection status: established
+|ERROR|2020-10-01 13:09:14,059|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:09:14,059|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|WARNING|2020-10-01 13:09:37,509|Got a insert event for open positions: {'t': 1, 'ratePrecision': 5, 'tradeId': '169753217', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 0.66369, 'valueDate': '', 'grossPL': -0.15321, 'close': 0.66387, 'visiblePL': -1.8, 'isDisabled': False, 'currency': 'NZD/USD', 'isBuy': False, 'amountK': 1, 'currencyPoint': 0.08512, 'time': '10012020110938', 'usedMargin': 17.5, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-01 13:09:37,509|Got a delete event for orders: {'t': 3, 'orderId': '365371415', 'action': 'D'}.
+|WARNING|2020-10-01 13:16:38,709|Got a insert event for open positions: {'t': 1, 'ratePrecision': 5, 'tradeId': '169753355', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 0.91045, 'valueDate': '', 'grossPL': -0.20864, 'close': 0.91064, 'visiblePL': -1.9, 'isDisabled': False, 'currency': 'EUR/GBP', 'isBuy': False, 'amountK': 1, 'currencyPoint': 0.10983, 'time': '10012020111639', 'usedMargin': 16.65, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-01 13:16:38,730|Got a delete event for orders: {'t': 3, 'orderId': '365371875', 'action': 'D'}.
+|WARNING|2020-10-01 13:19:44,277|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169753085', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 114.972, 'valueDate': '', 'grossPL': -0.15, 'close': 114.99, 'visiblePL': -1.8, 'currency': 'CHF/JPY', 'isBuy': False, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365372058', 'CloseOrderReqID': 'Request-2905961', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.08063, 'openTime': '10012020105439', 'closeTime': '10012020111945', 'action': 'I'}.
+|WARNING|2020-10-01 13:19:44,287|Got a delete event for open posi: {'t': 1, 'tradeId': '169753085', 'action': 'D'}
+|WARNING|2020-10-01 13:21:40,591|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169752527', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 124.021, 'valueDate': '', 'grossPL': -0.34, 'close': 123.979, 'visiblePL': -4.2, 'currency': 'EUR/JPY', 'isBuy': True, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365372104', 'CloseOrderReqID': 'Request-2907517', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.08065, 'openTime': '10012020100512', 'closeTime': '10012020112140', 'action': 'I'}.
+|WARNING|2020-10-01 13:21:40,591|Got a delete event for open posi: {'t': 1, 'tradeId': '169752527', 'action': 'D'}
+|WARNING|2020-10-01 13:36:18,605|Got a delete event for orders: {'t': 3, 'orderId': '365372865', 'action': 'D'}.
+|WARNING|2020-10-01 13:36:18,621|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169753576', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 124.1, 'valueDate': '', 'grossPL': -0.16119, 'close': 124.08, 'visiblePL': -2, 'isDisabled': False, 'currency': 'EUR/JPY', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.08059, 'time': '10012020113619', 'usedMargin': 16.65, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-01 13:40:32,608|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169753576', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 124.1, 'valueDate': '', 'grossPL': -0.25, 'close': 124.069, 'visiblePL': -3.1, 'currency': 'EUR/JPY', 'isBuy': True, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365372950', 'CloseOrderReqID': 'Request-2921299', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.08059, 'openTime': '10012020113619', 'closeTime': '10012020114033', 'action': 'I'}.
+|WARNING|2020-10-01 13:40:32,619|Got a delete event for open posi: {'t': 1, 'tradeId': '169753576', 'action': 'D'}
+|ERROR|2020-10-01 13:42:51,077|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:42:51,077|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:42:51,077|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:42:51,077|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:42:51,077|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:42:51,077|Connection status: established
+|ERROR|2020-10-01 13:42:51,077|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:42:51,077|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 13:42:51,270|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 13:42:51,270|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 13:42:51,270|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 13:42:51,270|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 13:42:51,270|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 13:42:51,270|Connection status: established
+|ERROR|2020-10-01 13:42:51,270|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 13:42:51,270|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|WARNING|2020-10-01 13:48:37,626|Got a delete event for orders: {'t': 3, 'orderId': '365373313', 'action': 'D'}.
+|WARNING|2020-10-01 13:48:37,626|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169753698', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 105.468, 'valueDate': '', 'grossPL': -0.09673, 'close': 105.48, 'visiblePL': -1.2, 'isDisabled': False, 'currency': 'USD/JPY', 'isBuy': False, 'amountK': 1, 'currencyPoint': 0.08061, 'time': '10012020114838', 'usedMargin': 16.65, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-01 13:58:40,082|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169753698', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 105.468, 'valueDate': '', 'grossPL': -0.02, 'close': 105.47, 'visiblePL': -0.2, 'currency': 'USD/JPY', 'isBuy': False, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365373764', 'CloseOrderReqID': 'Request-2934348', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.0806, 'openTime': '10012020114838', 'closeTime': '10012020115841', 'action': 'I'}.
+|WARNING|2020-10-01 13:58:40,090|Got a delete event for open posi: {'t': 1, 'tradeId': '169753698', 'action': 'D'}
+|ERROR|2020-10-01 14:01:10,825|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:01:10,825|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:01:10,825|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:01:10,825|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:01:10,825|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:01:10,825|Connection status: established
+|ERROR|2020-10-01 14:01:10,825|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:01:10,825|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:01:11,350|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:01:11,350|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:01:11,350|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:01:11,350|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:01:11,350|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:01:11,350|Connection status: established
+|ERROR|2020-10-01 14:01:11,350|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:01:11,350|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:02:52,312|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:02:52,312|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:02:52,312|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:02:52,312|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:02:52,312|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:02:52,312|Connection status: established
+|ERROR|2020-10-01 14:02:52,312|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:02:52,312|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:02:52,531|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:02:52,531|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:02:52,531|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:02:52,531|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:02:52,531|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:02:52,531|Connection status: established
+|ERROR|2020-10-01 14:02:52,531|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:02:52,531|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|WARNING|2020-10-01 14:02:52,979|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 5, 'tradeId': '169753217', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 0.66369, 'valueDate': '', 'grossPL': -1.47, 'close': 0.66542, 'visiblePL': -17.3, 'currency': 'NZD/USD', 'isBuy': False, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365373829', 'CloseOrderReqID': 'Request-2937518', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.085, 'openTime': '10012020110938', 'closeTime': '10012020120253', 'action': 'I'}.
+|WARNING|2020-10-01 14:02:52,986|Got a delete event for open posi: {'t': 1, 'tradeId': '169753217', 'action': 'D'}
+|ERROR|2020-10-01 14:03:16,187|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:03:16,187|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:03:16,187|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:03:16,187|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:03:16,187|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:03:16,187|Connection status: established
+|ERROR|2020-10-01 14:03:16,187|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:03:16,187|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:03:16,396|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:03:16,396|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:03:16,396|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:03:16,396|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:03:16,396|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:03:16,396|Connection status: established
+|ERROR|2020-10-01 14:03:16,396|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:03:16,396|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|WARNING|2020-10-01 14:03:39,900|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169753844', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 105.454, 'valueDate': '', 'grossPL': -0.10476, 'close': 105.467, 'visiblePL': -1.3, 'isDisabled': False, 'currency': 'USD/JPY', 'isBuy': False, 'amountK': 1, 'currencyPoint': 0.08059, 'time': '10012020120340', 'usedMargin': 16.65, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-01 14:03:39,911|Got a delete event for orders: {'t': 3, 'orderId': '365373966', 'action': 'D'}.
+|WARNING|2020-10-01 14:03:41,182|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 5, 'tradeId': '169753355', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 0.91045, 'valueDate': '', 'grossPL': 3.24, 'close': 0.90751, 'visiblePL': 29.4, 'currency': 'EUR/GBP', 'isBuy': False, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365373967', 'CloseOrderReqID': 'Request-2938115', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.1102, 'openTime': '10012020111639', 'closeTime': '10012020120342', 'action': 'I'}.
+|WARNING|2020-10-01 14:03:41,182|Got a delete event for open posi: {'t': 1, 'tradeId': '169753355', 'action': 'D'}
+|ERROR|2020-10-01 14:03:41,247|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:03:41,247|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:03:41,247|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:03:41,247|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:03:41,247|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:03:41,247|Connection status: established
+|ERROR|2020-10-01 14:03:41,247|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:03:41,247|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:03:41,493|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:03:41,493|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:03:41,493|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:03:41,493|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:03:41,493|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:03:41,493|Connection status: established
+|ERROR|2020-10-01 14:03:41,493|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:03:41,493|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:04:05,061|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:04:05,061|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:04:05,061|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:04:05,061|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:04:05,061|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:04:05,061|Connection status: established
+|ERROR|2020-10-01 14:04:05,061|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:04:05,061|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:04:05,247|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:04:05,247|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:04:05,247|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:04:05,247|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:04:05,247|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:04:05,247|Connection status: established
+|ERROR|2020-10-01 14:04:05,247|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:04:05,247|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:04:29,043|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:04:29,043|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:04:29,043|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:04:29,043|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:04:29,043|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:04:29,043|Connection status: established
+|ERROR|2020-10-01 14:04:29,043|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:04:29,043|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:04:29,251|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:04:29,251|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:04:29,251|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:04:29,251|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:04:29,251|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:04:29,251|Connection status: established
+|ERROR|2020-10-01 14:04:29,251|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:04:29,251|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|WARNING|2020-10-01 14:04:52,538|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169753858', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 124.081, 'valueDate': '', 'grossPL': -0.16121, 'close': 124.061, 'visiblePL': -2, 'isDisabled': False, 'currency': 'EUR/JPY', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.0806, 'time': '10012020120453', 'usedMargin': 16.65, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-01 14:04:52,543|Got a delete event for orders: {'t': 3, 'orderId': '365373989', 'action': 'D'}.
+|ERROR|2020-10-01 14:04:53,692|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:04:53,692|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:04:53,692|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:04:53,692|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:04:53,692|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:04:53,692|Connection status: established
+|ERROR|2020-10-01 14:04:53,692|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:04:53,692|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:04:53,870|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:04:53,870|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:04:53,870|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:04:53,870|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:04:53,870|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:04:53,870|Connection status: established
+|ERROR|2020-10-01 14:04:53,870|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:04:53,870|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:05:17,062|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:05:17,062|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:05:17,062|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:05:17,062|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:05:17,062|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:05:17,062|Connection status: established
+|ERROR|2020-10-01 14:05:17,062|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:05:17,062|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:05:17,264|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:05:17,264|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:05:17,264|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:05:17,264|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:05:17,264|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:05:17,264|Connection status: established
+|ERROR|2020-10-01 14:05:17,264|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:05:17,264|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:05:40,442|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:05:40,442|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:05:40,442|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:05:40,442|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:05:40,442|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:05:40,442|Connection status: established
+|ERROR|2020-10-01 14:05:40,442|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:05:40,442|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:05:40,637|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:05:40,637|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:05:40,637|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:05:40,637|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:05:40,637|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:05:40,637|Connection status: established
+|ERROR|2020-10-01 14:05:40,637|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:05:40,637|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|WARNING|2020-10-01 14:06:04,588|Got a delete event for orders: {'t': 3, 'orderId': '365374022', 'action': 'D'}.
+|WARNING|2020-10-01 14:06:04,589|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169753880', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 136.812, 'valueDate': '', 'grossPL': -0.12089, 'close': 136.797, 'visiblePL': -1.5, 'isDisabled': False, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.08059, 'time': '10012020120605', 'usedMargin': 19.98, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-01 14:06:05,497|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169753858', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 124.081, 'valueDate': '', 'grossPL': -0.1, 'close': 124.069, 'visiblePL': -1.2, 'currency': 'EUR/JPY', 'isBuy': True, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365374024', 'CloseOrderReqID': 'Request-2939877', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.08059, 'openTime': '10012020120453', 'closeTime': '10012020120606', 'action': 'I'}.
+|WARNING|2020-10-01 14:06:05,497|Got a delete event for open posi: {'t': 1, 'tradeId': '169753858', 'action': 'D'}
+|ERROR|2020-10-01 14:06:51,617|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:06:51,617|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:06:51,617|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:06:51,617|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:06:51,617|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:06:51,617|Connection status: established
+|ERROR|2020-10-01 14:06:51,617|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:06:51,617|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:06:51,802|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:06:51,802|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:06:51,802|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:06:51,802|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:06:51,802|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:06:51,802|Connection status: established
+|ERROR|2020-10-01 14:06:51,802|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:06:51,802|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|WARNING|2020-10-01 14:08:24,267|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169753880', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 136.812, 'valueDate': '', 'grossPL': -1.02, 'close': 136.686, 'visiblePL': -12.6, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365374170', 'CloseOrderReqID': 'Request-2941463', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.08065, 'openTime': '10012020120605', 'closeTime': '10012020120825', 'action': 'I'}.
+|WARNING|2020-10-01 14:08:24,269|Got a delete event for open posi: {'t': 1, 'tradeId': '169753880', 'action': 'D'}
+|WARNING|2020-10-01 14:08:47,606|Got a insert event for open positions: {'t': 1, 'ratePrecision': 5, 'tradeId': '169753908', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 1.32875, 'valueDate': '', 'grossPL': -0.11524, 'close': 1.32893, 'visiblePL': -1.8, 'isDisabled': False, 'currency': 'USD/CAD', 'isBuy': False, 'amountK': 1, 'currencyPoint': 0.06402, 'time': '10012020120848', 'usedMargin': 16.65, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-01 14:08:47,617|Got a delete event for orders: {'t': 3, 'orderId': '365374176', 'action': 'D'}.
+|ERROR|2020-10-01 14:19:11,433|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:19:11,433|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:19:11,433|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:19:11,433|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:19:11,433|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:19:11,433|Connection status: established
+|ERROR|2020-10-01 14:19:11,433|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:19:11,433|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:19:11,588|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:19:11,588|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:19:11,588|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:19:11,588|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:19:11,588|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:19:11,588|Connection status: established
+|ERROR|2020-10-01 14:19:11,588|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:19:11,588|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|WARNING|2020-10-01 14:24:12,644|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169753844', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 105.454, 'valueDate': '', 'grossPL': -0.19, 'close': 105.478, 'visiblePL': -2.4, 'currency': 'USD/JPY', 'isBuy': False, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365374843', 'CloseOrderReqID': 'Request-2952697', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.0806, 'openTime': '10012020120340', 'closeTime': '10012020122413', 'action': 'I'}.
+|WARNING|2020-10-01 14:24:12,646|Got a delete event for open posi: {'t': 1, 'tradeId': '169753844', 'action': 'D'}
+|WARNING|2020-10-01 14:32:38,567|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 5, 'tradeId': '169753908', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 1.32875, 'valueDate': '', 'grossPL': -0.23, 'close': 1.32911, 'visiblePL': -3.6, 'currency': 'USD/CAD', 'isBuy': False, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365375307', 'CloseOrderReqID': 'Request-2958305', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.06395, 'openTime': '10012020120848', 'closeTime': '10012020123239', 'action': 'I'}.
+|WARNING|2020-10-01 14:32:38,570|Got a delete event for open posi: {'t': 1, 'tradeId': '169753908', 'action': 'D'}
+|ERROR|2020-10-01 14:49:53,107|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:49:53,107|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:49:53,107|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:49:53,107|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:49:53,107|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:49:53,107|Connection status: established
+|ERROR|2020-10-01 14:49:53,107|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:49:53,107|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:49:53,272|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:49:53,272|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:49:53,272|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:49:53,272|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:49:53,272|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:49:53,272|Connection status: established
+|ERROR|2020-10-01 14:49:53,272|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:49:53,272|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:50:16,335|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:50:16,335|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:50:16,335|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:50:16,335|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:50:16,335|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:50:16,335|Connection status: established
+|ERROR|2020-10-01 14:50:16,335|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:50:16,335|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:50:16,533|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:50:16,533|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:50:16,533|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:50:16,533|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:50:16,533|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:50:16,533|Connection status: established
+|ERROR|2020-10-01 14:50:16,533|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:50:16,533|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|WARNING|2020-10-01 14:55:40,709|Got a insert event for open positions: {'t': 1, 'ratePrecision': 5, 'tradeId': '169754546', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 1.32978, 'valueDate': '', 'grossPL': -0.12155, 'close': 1.32959, 'visiblePL': -1.9, 'isDisabled': False, 'currency': 'USD/CAD', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.06397, 'time': '10012020125541', 'usedMargin': 16.65, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-01 14:55:40,712|Got a delete event for orders: {'t': 3, 'orderId': '365376430', 'action': 'D'}.
+|WARNING|2020-10-01 14:56:51,392|Got a delete event for orders: {'t': 3, 'orderId': '365376455', 'action': 'D'}.
+|WARNING|2020-10-01 14:56:51,407|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169754559', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 124.126, 'valueDate': '', 'grossPL': -0.14503, 'close': 124.108, 'visiblePL': -1.8, 'isDisabled': False, 'currency': 'EUR/JPY', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.08057, 'time': '10012020125651', 'usedMargin': 16.65, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|ERROR|2020-10-01 14:57:37,624|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:57:37,624|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:57:37,624|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:57:37,624|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:57:37,624|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:57:37,624|Connection status: established
+|ERROR|2020-10-01 14:57:37,624|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:57:37,624|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:57:37,860|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:57:37,860|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:57:37,860|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:57:37,860|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:57:37,860|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:57:37,860|Connection status: established
+|ERROR|2020-10-01 14:57:37,860|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:57:37,860|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:58:01,204|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:58:01,204|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:58:01,204|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:58:01,204|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:58:01,204|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:58:01,204|Connection status: established
+|ERROR|2020-10-01 14:58:01,204|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:58:01,204|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:58:01,380|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:58:01,380|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:58:01,380|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:58:01,380|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:58:01,380|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:58:01,380|Connection status: established
+|ERROR|2020-10-01 14:58:01,380|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:58:01,380|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:58:24,607|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:58:24,607|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:58:24,607|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:58:24,607|Params: {'trade_id': 169750767, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:58:24,607|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:58:24,607|Connection status: established
+|ERROR|2020-10-01 14:58:24,607|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:58:24,607|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|ERROR|2020-10-01 14:58:24,810|Server reports an error: {'executed': False, 'error': '{"code":3,"message":"Amount should be divisible by 1","parameters":["1"]}'}.
+|ERROR|2020-10-01 14:58:24,810|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-01 14:58:24,810|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '69'}
+|ERROR|2020-10-01 14:58:24,810|Params: {'trade_id': 169741733, 'amount': 0.001, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-01 14:58:24,810|Bearer token: Bearer v4TicUe0IYaeTi5OAFz-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-01 14:58:24,810|Connection status: established
+|ERROR|2020-10-01 14:58:24,810|Socket session id: v4TicUe0IYaeTi5OAFz-
+|ERROR|2020-10-01 14:58:24,810|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":3,\"message\":\"Amount should be divisible by 1\",\"parameters\":[\"1\"]}"},"data":{}}.
+|WARNING|2020-10-01 14:59:11,115|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169754559', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 124.126, 'valueDate': '', 'grossPL': -0.1, 'close': 124.113, 'visiblePL': -1.3, 'currency': 'EUR/JPY', 'isBuy': True, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365376495', 'CloseOrderReqID': 'Request-2976805', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.08057, 'openTime': '10012020125651', 'closeTime': '10012020125912', 'action': 'I'}.
+|WARNING|2020-10-01 14:59:11,122|Got a delete event for open posi: {'t': 1, 'tradeId': '169754559', 'action': 'D'}
+|WARNING|2020-10-01 15:09:16,340|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-01 15:13:45,721|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169754840', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 105.649, 'valueDate': '', 'grossPL': -0.1128, 'close': 105.635, 'visiblePL': -1.4, 'isDisabled': False, 'currency': 'USD/JPY', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.08057, 'time': '10012020131346', 'usedMargin': 16.65, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-01 15:13:45,721|Got a delete event for orders: {'t': 3, 'orderId': '365377375', 'action': 'D'}.
+|WARNING|2020-10-01 15:14:23,717|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 2, 'tradeId': '169741733', 'accountName': '01244307', 'roll': -0.12, 'com': 0, 'open': 1896.4, 'valueDate': '', 'grossPL': 6.4, 'close': 1903.92, 'visiblePL': 752, 'currency': 'XAU/USD', 'isBuy': True, 'amountK': 0.001, 'TradeIDOrigin': None, 'CloseOrderID': '365377513', 'CloseOrderReqID': 'EUDEMO_9D7A3BFF42C77F24E053E12B3C0ADD34_10012020080752656854_CG7-7541', 'CloseOrderRequestTXT': 'FXTS', 'CloseOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,CP,4004]', 'OpenOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,MO,4004]', 'TradeIDRemain': None, 'currencyPoint': 1e-05, 'openTime': '09302020154911', 'closeTime': '10012020131424', 'action': 'I'}.
+|WARNING|2020-10-01 15:14:23,717|Got a delete event for open posi: {'t': 1, 'tradeId': '169741733', 'action': 'D'}
+|WARNING|2020-10-01 15:14:27,696|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169754840', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 105.649, 'valueDate': '', 'grossPL': -0.08, 'close': 105.639, 'visiblePL': -1, 'currency': 'USD/JPY', 'isBuy': True, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365377515', 'CloseOrderReqID': 'EUDEMO_9D7A3BFF42C77F24E053E12B3C0ADD34_10012020080752656854_CG7-7545', 'CloseOrderRequestTXT': 'FXTS', 'CloseOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,class CTSCloseMultyPositionsDialog,4004]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.08056, 'openTime': '10012020131346', 'closeTime': '10012020131428', 'action': 'I'}.
+|WARNING|2020-10-01 15:14:27,700|Got a delete event for open posi: {'t': 1, 'tradeId': '169754840', 'action': 'D'}
+|WARNING|2020-10-01 15:14:27,854|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 5, 'tradeId': '169754546', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 1.32978, 'valueDate': '', 'grossPL': 0.33, 'close': 1.33029, 'visiblePL': 5.1, 'currency': 'USD/CAD', 'isBuy': True, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365377516', 'CloseOrderReqID': 'EUDEMO_9D7A3BFF42C77F24E053E12B3C0ADD34_10012020080752656854_CG7-7546', 'CloseOrderRequestTXT': 'FXTS', 'CloseOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,class CTSCloseMultyPositionsDialog,4004]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.06397, 'openTime': '10012020125541', 'closeTime': '10012020131428', 'action': 'I'}.
+|WARNING|2020-10-01 15:14:27,857|Got a delete event for open posi: {'t': 1, 'tradeId': '169754546', 'action': 'D'}
+|WARNING|2020-10-01 15:14:27,865|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 2, 'tradeId': '169750767', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 1896.33, 'valueDate': '', 'grossPL': -6.7, 'close': 1904.2, 'visiblePL': -787, 'currency': 'XAU/USD', 'isBuy': False, 'amountK': 0.001, 'TradeIDOrigin': None, 'CloseOrderID': '365377517', 'CloseOrderReqID': 'EUDEMO_9D7A3BFF42C77F24E053E12B3C0ADD34_10012020080752656854_CG7-7547', 'CloseOrderRequestTXT': 'FXTS', 'CloseOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,class CTSCloseMultyPositionsDialog,4004]', 'OpenOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,MO,4004]', 'TradeIDRemain': None, 'currencyPoint': 1e-05, 'openTime': '10012020081156', 'closeTime': '10012020131428', 'action': 'I'}.
+|WARNING|2020-10-01 15:14:27,865|Got a delete event for open posi: {'t': 1, 'tradeId': '169750767', 'action': 'D'}
+|WARNING|2020-10-01 15:14:46,012|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-01 15:35:33,925|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-01 15:36:31,360|Got a insert event for open positions: {'t': 1, 'ratePrecision': 2, 'tradeId': '169755285', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 12766.01, 'valueDate': '', 'grossPL': -5.4, 'close': 12765.11, 'visiblePL': -0.9, 'isDisabled': False, 'currency': 'GER30', 'isBuy': True, 'amountK': 0.06, 'currencyPoint': 0.006, 'time': '10012020133632', 'usedMargin': 2100, 'OpenOrderRequestTXT': 'FXTS', 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-01 15:36:31,365|Got a delete event for orders: {'t': 3, 'orderId': '365379089', 'action': 'D'}.
+|WARNING|2020-10-01 15:46:27,133|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 2, 'tradeId': '169755285', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 12766.01, 'valueDate': '', 'grossPL': -125.4, 'close': 12745.11, 'visiblePL': -20.9, 'currency': 'GER30', 'isBuy': True, 'amountK': 0.06, 'TradeIDOrigin': None, 'CloseOrderID': '365379110', 'CloseOrderReqID': 'EUDEMO_9D7A3BFF42C77F24E053E12B3C0ADD34_10012020080752656854_CG7-8138', 'CloseOrderRequestTXT': 'FXTS', 'CloseOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,PSL,4004]', 'OpenOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,MO,4004]', 'TradeIDRemain': None, 'currencyPoint': 0.006, 'openTime': '10012020133632', 'closeTime': '10012020134521', 'action': 'I'}.
+|WARNING|2020-10-01 15:46:27,145|Got a delete event for open posi: {'t': 1, 'tradeId': '169755285', 'action': 'D'}
+|WARNING|2020-10-01 15:46:59,972|Got a insert event for open positions: {'t': 1, 'ratePrecision': 5, 'tradeId': '169755522', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 0.91119, 'valueDate': '', 'grossPL': -70.2625, 'close': 0.91087, 'visiblePL': -3.2, 'isDisabled': False, 'currency': 'EUR/GBP', 'isBuy': True, 'amountK': 200, 'currencyPoint': 21.95486, 'time': '10012020134630', 'usedMargin': 3330, 'OpenOrderRequestTXT': 'FXTS', 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-01 15:46:59,980|Got a delete event for orders: {'t': 3, 'orderId': '365379826', 'action': 'D'}.
+|WARNING|2020-10-01 16:14:13,419|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-01 16:24:39,273|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 5, 'tradeId': '169755522', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 0.91119, 'valueDate': '', 'grossPL': 28.53, 'close': 0.91132, 'visiblePL': 1.3, 'currency': 'EUR/GBP', 'isBuy': True, 'amountK': 200, 'TradeIDOrigin': None, 'CloseOrderID': '365383393', 'CloseOrderReqID': 'Request-3041465', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,MO,4004]', 'TradeIDRemain': None, 'currencyPoint': 21.94354, 'openTime': '10012020134630', 'closeTime': '10012020142440', 'action': 'I'}.
+|WARNING|2020-10-01 16:24:39,276|Got a delete event for open posi: {'t': 1, 'tradeId': '169755522', 'action': 'D'}
+|WARNING|2020-10-02 10:26:17,524|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-02 10:29:56,090|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169767187', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 136.047, 'valueDate': '', 'grossPL': -0.1784, 'close': 136.025, 'visiblePL': -2.2, 'isDisabled': False, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.08109, 'time': '10022020082958', 'usedMargin': 19.98, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-02 10:29:56,093|Got a delete event for orders: {'t': 3, 'orderId': '365420211', 'action': 'D'}.
+|ERROR|2020-10-02 10:30:39,560|Server reports an error: {'executed': False, 'error': '{"code":18,"message":"The Stop distance must be ","parameters":["<",0]}'}.
+|ERROR|2020-10-02 10:30:39,560|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-02 10:30:39,560|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer ChwwxpNp0KCLHBfwAcV-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '160'}
+|ERROR|2020-10-02 10:30:39,560|Params: {'account_id': 1244307, 'symbol': 'GBP/JPY', 'is_buy': 'true', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'true', 'stop': 10.0, 'trailing_step': 10}
+|ERROR|2020-10-02 10:30:39,560|Bearer token: Bearer ChwwxpNp0KCLHBfwAcV-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-02 10:30:39,560|Connection status: established
+|ERROR|2020-10-02 10:30:39,560|Socket session id: ChwwxpNp0KCLHBfwAcV-
+|ERROR|2020-10-02 10:30:39,560|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":18,\"message\":\"The Stop distance must be \",\"parameters\":[\"<\",0]}"},"data":{}}.
+|WARNING|2020-10-02 10:30:39,560|Missing orderId in servers answer.
+|ERROR|2020-10-02 10:30:45,861|Server reports an error: {'executed': False, 'error': '{"code":18,"message":"The Stop distance must be ","parameters":["<",0]}'}.
+|ERROR|2020-10-02 10:30:45,861|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-02 10:30:45,861|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer ChwwxpNp0KCLHBfwAcV-cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '160'}
+|ERROR|2020-10-02 10:30:45,861|Params: {'account_id': 1244307, 'symbol': 'GBP/JPY', 'is_buy': 'true', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'true', 'stop': 10.0, 'trailing_step': 10}
+|ERROR|2020-10-02 10:30:45,861|Bearer token: Bearer ChwwxpNp0KCLHBfwAcV-cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-02 10:30:45,861|Connection status: established
+|ERROR|2020-10-02 10:30:45,861|Socket session id: ChwwxpNp0KCLHBfwAcV-
+|ERROR|2020-10-02 10:30:45,861|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":18,\"message\":\"The Stop distance must be \",\"parameters\":[\"<\",0]}"},"data":{}}.
+|WARNING|2020-10-02 10:30:45,861|Missing orderId in servers answer.
+|WARNING|2020-10-02 10:33:34,916|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169767237', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 135.99, 'valueDate': '', 'grossPL': -0.21908, 'close': 135.963, 'visiblePL': -2.7, 'isDisabled': False, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.08114, 'time': '10022020083337', 'usedMargin': 19.98, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-02 10:33:34,928|Got a delete event for orders: {'t': 3, 'orderId': '365420422', 'action': 'D'}.
+|WARNING|2020-10-02 10:34:38,708|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169767259', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 136.022, 'valueDate': '', 'grossPL': -0.20282, 'close': 135.997, 'visiblePL': -2.5, 'isDisabled': False, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.08113, 'time': '10022020083440', 'usedMargin': 19.98, 'OpenOrderRequestTXT': None, 'stop': 135.897, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-02 10:34:38,711|Got a delete event for orders: {'t': 3, 'orderId': '365420448', 'action': 'D'}.
+|WARNING|2020-10-02 10:35:30,745|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169767273', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 135.982, 'valueDate': '', 'grossPL': -0.21096, 'close': 135.956, 'visiblePL': -2.6, 'isDisabled': False, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.08114, 'time': '10022020083533', 'usedMargin': 19.98, 'OpenOrderRequestTXT': None, 'stop': 135.856, 'stopMove': 10, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-02 10:35:30,753|Got a delete event for orders: {'t': 3, 'orderId': '365420473', 'action': 'D'}.
+|WARNING|2020-10-02 10:36:54,096|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169767259', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 136.022, 'valueDate': '', 'grossPL': -1.02, 'close': 135.896, 'visiblePL': -12.6, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365420588', 'CloseOrderReqID': 'Request-3636676', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.08112, 'openTime': '10022020083440', 'closeTime': '10022020083656', 'action': 'I'}.
+|WARNING|2020-10-02 10:36:54,098|Got a delete event for open posi: {'t': 1, 'tradeId': '169767259', 'action': 'D'}
+|WARNING|2020-10-02 10:41:37,241|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169767273', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 135.982, 'valueDate': '', 'grossPL': 1.41, 'close': 136.156, 'visiblePL': 17.4, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365420712', 'CloseOrderReqID': 'Request-3637266', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.08109, 'openTime': '10022020083533', 'closeTime': '10022020084139', 'action': 'I'}.
+|WARNING|2020-10-02 10:41:37,243|Got a delete event for open posi: {'t': 1, 'tradeId': '169767273', 'action': 'D'}
+|ERROR|2020-10-02 10:46:13,157|Connection error: Connection refused by the server
+|ERROR|2020-10-02 10:46:15,136|Connection error: Connection refused by the server
+|ERROR|2020-10-02 10:46:19,137|Connection error: Connection refused by the server
+|ERROR|2020-10-02 10:46:24,602|Connection error: Connection refused by the server
+|ERROR|2020-10-02 10:46:40,961|Connection error: Connection refused by the server
+|ERROR|2020-10-02 10:46:45,492|Connection error: Connection refused by the server
+|ERROR|2020-10-02 10:46:50,005|Connection error: Connection refused by the server
+|WARNING|2020-10-02 11:37:27,627|Can not find Order object, returning None.
+|WARNING|2020-10-02 11:49:29,163|Can not find Order object, returning None.
+|WARNING|2020-10-02 11:50:12,852|Can not find Order object, returning None.
+|WARNING|2020-10-02 11:50:56,538|Can not find Order object, returning None.
+|WARNING|2020-10-02 11:55:43,386|Can not find Order object, returning None.
+|ERROR|2020-10-02 11:57:08,214|Server reports an error: {'executed': False, 'error': '{"code":18,"message":"The Stop distance must be ","parameters":["<",0]}'}.
+|ERROR|2020-10-02 11:57:08,215|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-02 11:57:08,215|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer gFp0HZl7-BizntUSAcb2cffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '161'}
+|ERROR|2020-10-02 11:57:08,215|Params: {'account_id': 1244307, 'symbol': 'USD/JPY', 'is_buy': 'false', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'true', 'stop': 100.0, 'trailing_step': 2}
+|ERROR|2020-10-02 11:57:08,215|Bearer token: Bearer gFp0HZl7-BizntUSAcb2cffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-02 11:57:08,215|Connection status: established
+|ERROR|2020-10-02 11:57:08,215|Socket session id: gFp0HZl7-BizntUSAcb2
+|ERROR|2020-10-02 11:57:08,215|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":18,\"message\":\"The Stop distance must be \",\"parameters\":[\"<\",0]}"},"data":{}}.
+|WARNING|2020-10-02 11:57:08,215|Missing orderId in servers answer.
+|WARNING|2020-10-02 11:57:35,708|Can not find Order object, returning None.
+|WARNING|2020-10-02 14:30:35,814|Default account set to 1244307, to change use set_default_account().
+|ERROR|2020-10-02 14:32:09,435|Server reports an error: {'executed': False, 'error': '{"code":18,"message":"The Stop distance must be ","parameters":["<",0]}'}.
+|ERROR|2020-10-02 14:32:09,435|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-02 14:32:09,435|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer bii0udJQvzoWtFCWAdtjcffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '160'}
+|ERROR|2020-10-02 14:32:09,435|Params: {'account_id': 1244307, 'symbol': 'USD/CAD', 'is_buy': 'false', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'true', 'stop': 10.0, 'trailing_step': 1}
+|ERROR|2020-10-02 14:32:09,435|Bearer token: Bearer bii0udJQvzoWtFCWAdtjcffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-02 14:32:09,435|Connection status: established
+|ERROR|2020-10-02 14:32:09,435|Socket session id: bii0udJQvzoWtFCWAdtj
+|ERROR|2020-10-02 14:32:09,435|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":18,\"message\":\"The Stop distance must be \",\"parameters\":[\"<\",0]}"},"data":{}}.
+|WARNING|2020-10-02 14:32:09,435|Missing orderId in servers answer.
+|ERROR|2020-10-02 14:32:16,805|Server reports an error: {'executed': False, 'error': '{"code":18,"message":"The Stop distance must be ","parameters":["<",0]}'}.
+|ERROR|2020-10-02 14:32:16,805|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-02 14:32:16,806|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer bii0udJQvzoWtFCWAdtjcffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '160'}
+|ERROR|2020-10-02 14:32:16,806|Params: {'account_id': 1244307, 'symbol': 'USD/CAD', 'is_buy': 'false', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'true', 'stop': 10.0, 'trailing_step': 0}
+|ERROR|2020-10-02 14:32:16,806|Bearer token: Bearer bii0udJQvzoWtFCWAdtjcffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-02 14:32:16,806|Connection status: established
+|ERROR|2020-10-02 14:32:16,806|Socket session id: bii0udJQvzoWtFCWAdtj
+|ERROR|2020-10-02 14:32:16,806|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":18,\"message\":\"The Stop distance must be \",\"parameters\":[\"<\",0]}"},"data":{}}.
+|WARNING|2020-10-02 14:32:16,806|Missing orderId in servers answer.
+|ERROR|2020-10-02 14:32:34,149|Server reports an error: {'executed': False, 'error': '{"code":18,"message":"The Stop distance must be ","parameters":["<",0]}'}.
+|ERROR|2020-10-02 14:32:34,149|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-02 14:32:34,149|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer bii0udJQvzoWtFCWAdtjcffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '160'}
+|ERROR|2020-10-02 14:32:34,149|Params: {'account_id': 1244307, 'symbol': 'USD/CAD', 'is_buy': 'false', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'true', 'stop': 10.0, 'trailing_step': 0}
+|ERROR|2020-10-02 14:32:34,149|Bearer token: Bearer bii0udJQvzoWtFCWAdtjcffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-02 14:32:34,149|Connection status: established
+|ERROR|2020-10-02 14:32:34,149|Socket session id: bii0udJQvzoWtFCWAdtj
+|ERROR|2020-10-02 14:32:34,149|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":18,\"message\":\"The Stop distance must be \",\"parameters\":[\"<\",0]}"},"data":{}}.
+|WARNING|2020-10-02 14:32:34,150|Missing orderId in servers answer.
+|ERROR|2020-10-02 14:40:30,893|Server reports an error: {'executed': False, 'error': '{"code":18,"message":"The Stop distance must be ","parameters":["<",0]}'}.
+|ERROR|2020-10-02 14:40:30,893|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-02 14:40:30,893|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer bii0udJQvzoWtFCWAdtjcffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '160'}
+|ERROR|2020-10-02 14:40:30,893|Params: {'account_id': 1244307, 'symbol': 'USD/CAD', 'is_buy': 'false', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'true', 'stop': 10.0, 'trailing_step': 1}
+|ERROR|2020-10-02 14:40:30,893|Bearer token: Bearer bii0udJQvzoWtFCWAdtjcffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-02 14:40:30,893|Connection status: established
+|ERROR|2020-10-02 14:40:30,893|Socket session id: bii0udJQvzoWtFCWAdtj
+|ERROR|2020-10-02 14:40:30,893|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":18,\"message\":\"The Stop distance must be \",\"parameters\":[\"<\",0]}"},"data":{}}.
+|WARNING|2020-10-02 14:40:30,894|Missing orderId in servers answer.
+|WARNING|2020-10-02 14:40:41,381|Got a insert event for open positions: {'t': 1, 'ratePrecision': 5, 'tradeId': '169771059', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 1.33126, 'valueDate': '', 'grossPL': -0.11543, 'close': 1.33144, 'visiblePL': -1.8, 'isDisabled': False, 'currency': 'USD/CAD', 'isBuy': False, 'amountK': 1, 'currencyPoint': 0.06413, 'time': '10022020124041', 'usedMargin': 16.65, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-02 14:40:41,383|Got a delete event for orders: {'t': 3, 'orderId': '365433900', 'action': 'D'}.
+|ERROR|2020-10-02 14:41:00,744|Server reports an error: {'executed': False, 'error': '{"code":18,"message":"The Stop distance must be ","parameters":["<",0]}'}.
+|ERROR|2020-10-02 14:41:00,744|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-02 14:41:00,745|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer bii0udJQvzoWtFCWAdtjcffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '159'}
+|ERROR|2020-10-02 14:41:00,745|Params: {'account_id': 1244307, 'symbol': 'USD/CAD', 'is_buy': 'false', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'true', 'stop': 1.0, 'trailing_step': 1}
+|ERROR|2020-10-02 14:41:00,745|Bearer token: Bearer bii0udJQvzoWtFCWAdtjcffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-02 14:41:00,745|Connection status: established
+|ERROR|2020-10-02 14:41:00,745|Socket session id: bii0udJQvzoWtFCWAdtj
+|ERROR|2020-10-02 14:41:00,745|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":18,\"message\":\"The Stop distance must be \",\"parameters\":[\"<\",0]}"},"data":{}}.
+|WARNING|2020-10-02 14:41:00,745|Missing orderId in servers answer.
+|WARNING|2020-10-02 14:41:22,280|Got a insert event for open positions: {'t': 1, 'ratePrecision': 5, 'tradeId': '169771072', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 1.33114, 'valueDate': '', 'grossPL': -0.10903, 'close': 1.33131, 'visiblePL': -1.7, 'isDisabled': False, 'currency': 'USD/CAD', 'isBuy': False, 'amountK': 1, 'currencyPoint': 0.06414, 'time': '10022020124122', 'usedMargin': 16.65, 'OpenOrderRequestTXT': None, 'stop': 1.3333, 'stopMove': 0.1, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-02 14:41:22,287|Got a delete event for orders: {'t': 3, 'orderId': '365433926', 'action': 'D'}.
+|ERROR|2020-10-02 14:41:33,701|Server reports an error: {'executed': False, 'error': '{"code":18,"message":"The Stop distance must be ","parameters":["<",0]}'}.
+|ERROR|2020-10-02 14:41:33,701|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-02 14:41:33,702|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer bii0udJQvzoWtFCWAdtjcffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '160'}
+|ERROR|2020-10-02 14:41:33,702|Params: {'account_id': 1244307, 'symbol': 'USD/CAD', 'is_buy': 'false', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'true', 'stop': 20.0, 'trailing_step': 1}
+|ERROR|2020-10-02 14:41:33,702|Bearer token: Bearer bii0udJQvzoWtFCWAdtjcffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-02 14:41:33,702|Connection status: established
+|ERROR|2020-10-02 14:41:33,702|Socket session id: bii0udJQvzoWtFCWAdtj
+|ERROR|2020-10-02 14:41:33,702|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":18,\"message\":\"The Stop distance must be \",\"parameters\":[\"<\",0]}"},"data":{}}.
+|WARNING|2020-10-02 14:41:33,702|Missing orderId in servers answer.
+|ERROR|2020-10-02 14:41:38,343|Server reports an error: {'executed': False, 'error': '{"code":18,"message":"The Stop distance must be ","parameters":["<",0]}'}.
+|ERROR|2020-10-02 14:41:38,343|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-02 14:41:38,343|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer bii0udJQvzoWtFCWAdtjcffb2229e78fc7db07867b22177fc96907476860', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '159'}
+|ERROR|2020-10-02 14:41:38,343|Params: {'account_id': 1244307, 'symbol': 'USD/CAD', 'is_buy': 'true', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'true', 'stop': 20.0, 'trailing_step': 1}
+|ERROR|2020-10-02 14:41:38,344|Bearer token: Bearer bii0udJQvzoWtFCWAdtjcffb2229e78fc7db07867b22177fc96907476860
+|ERROR|2020-10-02 14:41:38,344|Connection status: established
+|ERROR|2020-10-02 14:41:38,344|Socket session id: bii0udJQvzoWtFCWAdtj
+|ERROR|2020-10-02 14:41:38,344|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":18,\"message\":\"The Stop distance must be \",\"parameters\":[\"<\",0]}"},"data":{}}.
+|WARNING|2020-10-02 14:41:38,344|Missing orderId in servers answer.
+|WARNING|2020-10-02 14:41:45,588|Got a insert event for open positions: {'t': 1, 'ratePrecision': 5, 'tradeId': '169771088', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 1.33146, 'valueDate': '', 'grossPL': -0.16036, 'close': 1.33121, 'visiblePL': -2.5, 'isDisabled': False, 'currency': 'USD/CAD', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.06414, 'time': '10022020124145', 'usedMargin': 16.65, 'OpenOrderRequestTXT': None, 'stop': 1.32927, 'stopMove': 0.6, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-02 14:41:45,595|Got a delete event for orders: {'t': 3, 'orderId': '365433941', 'action': 'D'}.
+|WARNING|2020-10-02 14:51:06,986|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 5, 'tradeId': '169771088', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 1.33146, 'valueDate': '', 'grossPL': 0.52, 'close': 1.33227, 'visiblePL': 8.1, 'currency': 'USD/CAD', 'isBuy': True, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365434714', 'CloseOrderReqID': 'EUDEMO_9D79F41CA7D57F22E053E12B3C0AF8F8_10022020121440822309_DXA-938', 'CloseOrderRequestTXT': 'FXTS', 'CloseOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,class CTSCloseMultyPositionsDialog,4004]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.06413, 'openTime': '10022020124145', 'closeTime': '10022020125107', 'action': 'I'}.
+|WARNING|2020-10-02 14:51:06,988|Got a delete event for open posi: {'t': 1, 'tradeId': '169771088', 'action': 'D'}
+|WARNING|2020-10-02 14:51:07,022|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 5, 'tradeId': '169771072', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 1.33114, 'valueDate': '', 'grossPL': -0.84, 'close': 1.33245, 'visiblePL': -13.1, 'currency': 'USD/CAD', 'isBuy': False, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365434715', 'CloseOrderReqID': 'EUDEMO_9D79F41CA7D57F22E053E12B3C0AF8F8_10022020121440822309_DXA-939', 'CloseOrderRequestTXT': 'FXTS', 'CloseOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,class CTSCloseMultyPositionsDialog,4004]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.06413, 'openTime': '10022020124122', 'closeTime': '10022020125107', 'action': 'I'}.
+|WARNING|2020-10-02 14:51:07,025|Got a delete event for open posi: {'t': 1, 'tradeId': '169771072', 'action': 'D'}
+|WARNING|2020-10-02 14:51:07,142|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 5, 'tradeId': '169771059', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 1.33126, 'valueDate': '', 'grossPL': -0.76, 'close': 1.33245, 'visiblePL': -11.9, 'currency': 'USD/CAD', 'isBuy': False, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365434716', 'CloseOrderReqID': 'EUDEMO_9D79F41CA7D57F22E053E12B3C0AF8F8_10022020121440822309_DXA-940', 'CloseOrderRequestTXT': 'FXTS', 'CloseOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,class CTSCloseMultyPositionsDialog,4004]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.06413, 'openTime': '10022020124041', 'closeTime': '10022020125107', 'action': 'I'}.
+|WARNING|2020-10-02 14:51:07,144|Got a delete event for open posi: {'t': 1, 'tradeId': '169771059', 'action': 'D'}
+|ERROR|2020-10-02 18:37:56,086|Connection error: Connection refused by the server
+|ERROR|2020-10-02 18:37:58,339|Connection error: Connection refused by the server
+|ERROR|2020-10-02 18:38:02,588|Connection error: Connection refused by the server
+|ERROR|2020-10-04 16:09:55,246|Connection error: Authentication timed out. Please try again.
+|WARNING|2020-10-04 16:26:39,156|Default account set to 1244307, to change use set_default_account().
+|ERROR|2020-10-04 16:27:25,282|Error in get_candles: Illegal period: 9.
+|WARNING|2020-10-05 12:40:39,818|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-05 12:42:22,813|Default account set to 1244307, to change use set_default_account().
+|ERROR|2020-10-05 12:47:07,826|Connection error: Authentication timed out. Please try again.
+|ERROR|2020-10-05 12:47:34,387|Connection error: Authentication timed out. Please try again.
+|WARNING|2020-10-05 12:50:04,590|Default account set to 1244307, to change use set_default_account().
+|ERROR|2020-10-05 14:17:02,732|Connection error: Authentication timed out. Please try again.
+|WARNING|2020-10-05 14:27:38,019|Default account set to 1244307, to change use set_default_account().
+|ERROR|2020-10-05 14:45:58,081|Connection error: Authentication timed out. Please try again.
+|ERROR|2020-10-05 15:19:16,577|Connection error: Authentication timed out. Please try again.
+|ERROR|2020-10-05 15:29:54,406|Connection error: Authentication timed out. Please try again.
+|ERROR|2020-10-05 15:37:27,320|Connection error: Authentication timed out. Please try again.
+|WARNING|2020-10-05 15:48:23,993|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-05 17:17:31,400|Default account set to 1244307, to change use set_default_account().
+|ERROR|2020-10-05 21:13:02,421|Connection error: Authentication timed out. Please try again.
+|WARNING|2020-10-05 21:18:24,172|Default account set to 1244307, to change use set_default_account().

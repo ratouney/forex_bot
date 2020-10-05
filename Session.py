@@ -1,10 +1,18 @@
+print("Loading the lib")
 import fxcmpy
+print("Lib is loaded")
+
+import logging
+
+lg = logging.getLogger("FXCM")
+print(lg)
 
 class Session():
     def __init__(self, token):
         self.__token__ = token
         self.__connection__ = None
 
+        print("Starting connection")
         try:
             self.__connection__ = fxcmpy.fxcmpy(access_token=token, log_file="log.txt", server="demo")
             print("Connection successfull")

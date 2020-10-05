@@ -2,7 +2,7 @@ import importlib
 from Session import Session
 from Loader import Loader
 
-s = Session("cffb2229e78fc7db07867b22177fc96907476860")
+s = Session("3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a")
 
 instrument_list = None
 if s.isConnected():
