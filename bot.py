@@ -3,7 +3,11 @@ from ichimoku import *
 import time
 from datetime import datetime
 
-s = Session("3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a")
+# Main Acc  === 3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+# Bot Run   === 43038ce05fe884fbc730cfc2835abc8e68d799fe
+
+s = Session("43038ce05fe884fbc730cfc2835abc8e68d799fe")
+
 
 instrument_list = None
 if s.isConnected():
@@ -19,4 +23,4 @@ while active:
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
     print("Current Time =", current_time)
-    time.sleep(90)
+    time.sleep(50)

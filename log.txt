@@ -3237,3 +3237,289 @@
 .
 |ERROR|2020-10-12 16:20:11,165|Connection error: Authentication timed out. Please try again.
 |ERROR|2020-10-12 17:05:35,894|Connection error: Authentication timed out. Please try again.
+|ERROR|2020-10-12 17:32:58,282|Connection error: Authentication timed out. Please try again.
+|ERROR|2020-10-12 17:44:07,959|Connection error: Authentication timed out. Please try again.
+|WARNING|2020-10-13 11:25:03,303|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-13 11:31:35,300|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-13 11:44:30,281|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-13 11:47:22,605|Got a delete event for orders: {'t': 3, 'orderId': '365798848', 'action': 'D'}.
+|WARNING|2020-10-13 11:47:22,622|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169892747', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 137.662, 'valueDate': '', 'grossPL': -0.18492, 'close': 137.639, 'visiblePL': -2.3, 'isDisabled': False, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.0804, 'time': '10132020094723', 'usedMargin': 19.98, 'OpenOrderRequestTXT': None, 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-13 11:48:17,945|Got a delete event for orders: {'t': 3, 'orderId': '365798984', 'action': 'D'}.
+|WARNING|2020-10-13 11:48:17,946|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169892759', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 137.674, 'valueDate': '', 'grossPL': -0.20101, 'close': 137.649, 'visiblePL': -2.5, 'isDisabled': False, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.0804, 'time': '10132020094818', 'usedMargin': 19.98, 'OpenOrderRequestTXT': None, 'stop': 137.604, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-13 11:48:49,825|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169892766', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 137.649, 'valueDate': '', 'grossPL': -0.16081, 'close': 137.629, 'visiblePL': -2, 'isDisabled': False, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.08041, 'time': '10132020094850', 'usedMargin': 19.98, 'OpenOrderRequestTXT': None, 'stop': 137.605, 'stopMove': 9.7, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-13 11:48:49,828|Got a delete event for orders: {'t': 3, 'orderId': '365799013', 'action': 'D'}.
+|ERROR|2020-10-13 11:48:59,260|Server reports an error: {'executed': False, 'error': '{"type":5,"sessionId":"EUDEMO_9D7A3BC8F60A7F28E053E12B3C0ADF46_10132020094429333211_YHQ","requestId":"Request-58490","text":" Traling step did not pass validation.\\n","code":20115,"stack":""}'}.
+|ERROR|2020-10-13 11:48:59,261|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-13 11:48:59,261|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 0Gr0qSf2SknLUUz-AePd3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '163'}
+|ERROR|2020-10-13 11:48:59,261|Params: {'account_id': 1244307, 'symbol': 'GBP/JPY', 'is_buy': 'true', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'false', 'stop': 137.605, 'trailing_step': 5}
+|ERROR|2020-10-13 11:48:59,261|Bearer token: Bearer 0Gr0qSf2SknLUUz-AePd3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+|ERROR|2020-10-13 11:48:59,261|Connection status: established
+|ERROR|2020-10-13 11:48:59,261|Socket session id: 0Gr0qSf2SknLUUz-AePd
+|ERROR|2020-10-13 11:48:59,261|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"type\":5,\"sessionId\":\"EUDEMO_9D7A3BC8F60A7F28E053E12B3C0ADF46_10132020094429333211_YHQ\",\"requestId\":\"Request-58490\",\"text\":\" Traling step did not pass validation.\\n\",\"code\":20115,\"stack\":\"\"}"}}.
+|WARNING|2020-10-13 11:48:59,261|Missing orderId in servers answer.
+|WARNING|2020-10-13 11:49:04,482|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169892768', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 137.654, 'valueDate': '', 'grossPL': -0.19298, 'close': 137.63, 'visiblePL': -2.4, 'isDisabled': False, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.08041, 'time': '10132020094905', 'usedMargin': 19.98, 'OpenOrderRequestTXT': None, 'stop': 137.605, 'stopMove': 12, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-13 11:49:04,491|Got a delete event for orders: {'t': 3, 'orderId': '365799015', 'action': 'D'}.
+|WARNING|2020-10-13 11:50:34,719|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169892785', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 137.658, 'valueDate': '', 'grossPL': -0.193, 'close': 137.634, 'visiblePL': -2.4, 'isDisabled': False, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.08042, 'time': '10132020095035', 'usedMargin': 19.98, 'OpenOrderRequestTXT': None, 'stop': 137.605, 'stopMove': 12, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-13 11:50:34,721|Got a delete event for orders: {'t': 3, 'orderId': '365799038', 'action': 'D'}.
+|WARNING|2020-10-13 11:52:07,270|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169892823', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 137.649, 'valueDate': '', 'grossPL': -0.19298, 'close': 137.625, 'visiblePL': -2.4, 'isDisabled': False, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.08041, 'time': '10132020095207', 'usedMargin': 19.98, 'OpenOrderRequestTXT': None, 'stop': 137.605, 'stopMove': 12, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-13 11:52:07,278|Got a delete event for orders: {'t': 3, 'orderId': '365799218', 'action': 'D'}.
+|WARNING|2020-10-13 11:52:15,306|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169892824', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 137.647, 'valueDate': '', 'grossPL': -0.20103, 'close': 137.622, 'visiblePL': -2.5, 'isDisabled': False, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.08041, 'time': '10132020095216', 'usedMargin': 19.98, 'OpenOrderRequestTXT': None, 'stop': 137.605, 'stopMove': 12.1, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-13 11:52:15,308|Got a delete event for orders: {'t': 3, 'orderId': '365799220', 'action': 'D'}.
+|WARNING|2020-10-13 11:53:06,744|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169892842', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 137.655, 'valueDate': '', 'grossPL': -0.18493, 'close': 137.632, 'visiblePL': -2.3, 'isDisabled': False, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'currencyPoint': 0.08041, 'time': '10132020095307', 'usedMargin': 19.98, 'OpenOrderRequestTXT': None, 'stop': 137.605, 'stopMove': 12, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-13 11:53:06,746|Got a delete event for orders: {'t': 3, 'orderId': '365799239', 'action': 'D'}.
+|WARNING|2020-10-13 11:53:57,125|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-13 11:54:38,047|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169892766', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 137.649, 'valueDate': '', 'grossPL': -0.35, 'close': 137.605, 'visiblePL': -4.4, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365799162', 'CloseOrderReqID': 'Request-58421', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.0804, 'openTime': '10132020094850', 'closeTime': '10132020095438', 'action': 'I'}.
+|WARNING|2020-10-13 11:54:38,049|Got a delete event for open posi: {'t': 1, 'tradeId': '169892766', 'action': 'D'}
+|WARNING|2020-10-13 11:54:38,151|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169892768', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 137.654, 'valueDate': '', 'grossPL': -0.39, 'close': 137.605, 'visiblePL': -4.9, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365799164', 'CloseOrderReqID': 'Request-58535', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.0804, 'openTime': '10132020094905', 'closeTime': '10132020095438', 'action': 'I'}.
+|WARNING|2020-10-13 11:54:38,154|Got a delete event for open posi: {'t': 1, 'tradeId': '169892768', 'action': 'D'}
+|WARNING|2020-10-13 11:54:38,164|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169892785', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 137.658, 'valueDate': '', 'grossPL': -0.43, 'close': 137.605, 'visiblePL': -5.3, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365799196', 'CloseOrderReqID': 'Request-59244', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.0804, 'openTime': '10132020095035', 'closeTime': '10132020095438', 'action': 'I'}.
+|WARNING|2020-10-13 11:54:38,166|Got a delete event for open posi: {'t': 1, 'tradeId': '169892785', 'action': 'D'}
+|WARNING|2020-10-13 11:54:38,268|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169892823', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 137.649, 'valueDate': '', 'grossPL': -0.35, 'close': 137.605, 'visiblePL': -4.4, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365799376', 'CloseOrderReqID': 'Request-59974', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.0804, 'openTime': '10132020095207', 'closeTime': '10132020095438', 'action': 'I'}.
+|WARNING|2020-10-13 11:54:38,269|Got a delete event for open posi: {'t': 1, 'tradeId': '169892823', 'action': 'D'}
+|WARNING|2020-10-13 11:54:38,437|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169892824', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 137.647, 'valueDate': '', 'grossPL': -0.34, 'close': 137.605, 'visiblePL': -4.2, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365799379', 'CloseOrderReqID': 'Request-60037', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.0804, 'openTime': '10132020095216', 'closeTime': '10132020095438', 'action': 'I'}.
+|WARNING|2020-10-13 11:54:38,445|Got a delete event for open posi: {'t': 1, 'tradeId': '169892824', 'action': 'D'}
+|WARNING|2020-10-13 11:54:38,454|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169892842', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 137.655, 'valueDate': '', 'grossPL': -0.4, 'close': 137.605, 'visiblePL': -5, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365799402', 'CloseOrderReqID': 'Request-60402', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.0804, 'openTime': '10132020095307', 'closeTime': '10132020095438', 'action': 'I'}.
+|WARNING|2020-10-13 11:54:38,455|Got a delete event for open posi: {'t': 1, 'tradeId': '169892842', 'action': 'D'}
+|WARNING|2020-10-13 11:54:47,495|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169892759', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 137.674, 'valueDate': '', 'grossPL': -0.56, 'close': 137.604, 'visiblePL': -7, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365799128', 'CloseOrderReqID': 'Request-58181', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.0804, 'openTime': '10132020094818', 'closeTime': '10132020095448', 'action': 'I'}.
+|WARNING|2020-10-13 11:54:47,497|Got a delete event for open posi: {'t': 1, 'tradeId': '169892759', 'action': 'D'}
+|WARNING|2020-10-13 11:54:49,625|Got a delete event for orders: {'t': 3, 'orderId': '365799282', 'action': 'D'}.
+|WARNING|2020-10-13 11:54:49,632|Got a insert event for open positions: {'t': 1, 'ratePrecision': 5, 'tradeId': '169892867', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 0.91106, 'valueDate': '', 'grossPL': -3.35186, 'close': 0.91094, 'visiblePL': -1.2, 'isDisabled': False, 'currency': 'USD/CHF', 'isBuy': True, 'amountK': 30, 'currencyPoint': 2.79322, 'time': '10132020095450', 'usedMargin': 499.5, 'OpenOrderRequestTXT': 'FXTS', 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-13 11:55:52,366|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 5, 'tradeId': '169892867', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 0.91106, 'valueDate': '', 'grossPL': -7.54, 'close': 0.91079, 'visiblePL': -2.7, 'currency': 'USD/CHF', 'isBuy': True, 'amountK': 30, 'TradeIDOrigin': None, 'CloseOrderID': '365799303', 'CloseOrderReqID': 'Request-61770', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,MO,4004]', 'TradeIDRemain': None, 'currencyPoint': 2.79356, 'openTime': '10132020095450', 'closeTime': '10132020095553', 'action': 'I'}.
+|WARNING|2020-10-13 11:55:52,367|Got a delete event for open posi: {'t': 1, 'tradeId': '169892867', 'action': 'D'}
+|WARNING|2020-10-13 11:56:29,887|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169892747', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 137.662, 'valueDate': '', 'grossPL': -0.55, 'close': 137.593, 'visiblePL': -6.9, 'currency': 'GBP/JPY', 'isBuy': True, 'amountK': 1, 'TradeIDOrigin': None, 'CloseOrderID': '365799313', 'CloseOrderReqID': 'Request-62061', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.0804, 'openTime': '10132020094723', 'closeTime': '10132020095630', 'action': 'I'}.
+|WARNING|2020-10-13 11:56:29,889|Got a delete event for open posi: {'t': 1, 'tradeId': '169892747', 'action': 'D'}
+|WARNING|2020-10-13 12:16:02,308|Got a delete event for orders: {'t': 3, 'orderId': '365800021', 'action': 'D'}.
+|WARNING|2020-10-13 12:16:02,319|Got a insert event for open positions: {'t': 1, 'ratePrecision': 5, 'tradeId': '169893085', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 0.91133, 'valueDate': '', 'grossPL': -3.07185, 'close': 0.91122, 'visiblePL': -1.1, 'isDisabled': False, 'currency': 'USD/CHF', 'isBuy': True, 'amountK': 30, 'currencyPoint': 2.79259, 'time': '10132020101603', 'usedMargin': 499.5, 'OpenOrderRequestTXT': None, 'stop': 0.91074, 'stopMove': 9.9, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-13 12:21:24,142|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 5, 'tradeId': '169893085', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 0.91133, 'valueDate': '', 'grossPL': -8.66, 'close': 0.91102, 'visiblePL': -3.1, 'currency': 'USD/CHF', 'isBuy': True, 'amountK': 30, 'TradeIDOrigin': None, 'CloseOrderID': '365800230', 'CloseOrderReqID': 'Request-73974', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 2.79301, 'openTime': '10132020101603', 'closeTime': '10132020102124', 'action': 'I'}.
+|WARNING|2020-10-13 12:21:24,144|Got a delete event for open posi: {'t': 1, 'tradeId': '169893085', 'action': 'D'}
+|WARNING|2020-10-13 12:26:08,191|Got a delete event for orders: {'t': 3, 'orderId': '365800403', 'action': 'D'}.
+|WARNING|2020-10-13 12:26:08,193|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169893194', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 137.599, 'valueDate': '', 'grossPL': -0.96522, 'close': 137.623, 'visiblePL': -2.4, 'isDisabled': False, 'currency': 'GBP/JPY', 'isBuy': False, 'amountK': 5, 'currencyPoint': 0.40217, 'time': '10132020102609', 'usedMargin': 99.9, 'OpenOrderRequestTXT': None, 'stop': 137.672, 'stopMove': 10, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-13 12:29:42,049|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169893194', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 137.599, 'valueDate': '', 'grossPL': -0.88, 'close': 137.621, 'visiblePL': -2.2, 'currency': 'GBP/JPY', 'isBuy': False, 'amountK': 5, 'TradeIDOrigin': None, 'CloseOrderID': '365800443', 'CloseOrderReqID': 'Request-77939', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.40212, 'openTime': '10132020102609', 'closeTime': '10132020102942', 'action': 'I'}.
+|WARNING|2020-10-13 12:29:42,051|Got a delete event for open posi: {'t': 1, 'tradeId': '169893194', 'action': 'D'}
+|WARNING|2020-10-13 12:45:42,669|Got a insert event for open positions: {'t': 1, 'ratePrecision': 5, 'tradeId': '169893432', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 1.31148, 'valueDate': '', 'grossPL': -0.67928, 'close': 1.31127, 'visiblePL': -2.1, 'isDisabled': False, 'currency': 'USD/CAD', 'isBuy': True, 'amountK': 5, 'currencyPoint': 0.32347, 'time': '10132020104543', 'usedMargin': 83.25, 'OpenOrderRequestTXT': None, 'stop': 1.3112, 'stopMove': 10, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-13 12:45:42,674|Got a delete event for orders: {'t': 3, 'orderId': '365801096', 'action': 'D'}.
+|WARNING|2020-10-13 12:45:56,359|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 5, 'tradeId': '169893432', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 1.31148, 'valueDate': '', 'grossPL': -0.91, 'close': 1.3112, 'visiblePL': -2.8, 'currency': 'USD/CAD', 'isBuy': True, 'amountK': 5, 'TradeIDOrigin': None, 'CloseOrderID': '365801248', 'CloseOrderReqID': 'Request-85703', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.32345, 'openTime': '10132020104543', 'closeTime': '10132020104557', 'action': 'I'}.
+|WARNING|2020-10-13 12:45:56,361|Got a delete event for open posi: {'t': 1, 'tradeId': '169893432', 'action': 'D'}
+|ERROR|2020-10-13 12:46:19,053|Server reports an error: {'executed': False, 'error': '{"code":7,"message":"The Stop rate must be ","parameters":["<",1.31115]}'}.
+|ERROR|2020-10-13 12:46:19,053|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-13 12:46:19,053|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer YOktMXpIOCc7WehzAeP03d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '163'}
+|ERROR|2020-10-13 12:46:19,053|Params: {'account_id': 1244307, 'symbol': 'USD/CAD', 'is_buy': 'true', 'rate': 0.0, 'amount': 5, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'false', 'stop': 1.3112, 'trailing_step': 10}
+|ERROR|2020-10-13 12:46:19,053|Bearer token: Bearer YOktMXpIOCc7WehzAeP03d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+|ERROR|2020-10-13 12:46:19,053|Connection status: established
+|ERROR|2020-10-13 12:46:19,054|Socket session id: YOktMXpIOCc7WehzAeP0
+|ERROR|2020-10-13 12:46:19,055|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":7,\"message\":\"The Stop rate must be \",\"parameters\":[\"<\",1.31115]}"},"data":{}}.
+|WARNING|2020-10-13 12:46:19,055|Missing orderId in servers answer.
+|WARNING|2020-10-13 12:46:55,586|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169893439', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 124.297, 'valueDate': '', 'grossPL': -0.72397, 'close': 124.315, 'visiblePL': -1.8, 'isDisabled': False, 'currency': 'EUR/JPY', 'isBuy': False, 'amountK': 5, 'currencyPoint': 0.40223, 'time': '10132020104656', 'usedMargin': 83.25, 'OpenOrderRequestTXT': None, 'stop': 124.351, 'stopMove': 10, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-13 12:46:55,590|Got a delete event for orders: {'t': 3, 'orderId': '365801108', 'action': 'D'}.
+|WARNING|2020-10-13 12:48:23,862|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-13 13:24:28,590|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-13 13:35:36,849|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169893865', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 124.382, 'valueDate': '', 'grossPL': -4.10083, 'close': 124.365, 'visiblePL': -1.7, 'isDisabled': False, 'currency': 'EUR/JPY', 'isBuy': True, 'amountK': 30, 'currencyPoint': 2.41209, 'time': '10132020113537', 'usedMargin': 499.5, 'OpenOrderRequestTXT': None, 'stop': 124.316, 'stopMove': 10, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-13 13:35:36,853|Got a delete event for orders: {'t': 3, 'orderId': '365802655', 'action': 'D'}.
+|WARNING|2020-10-13 13:36:42,475|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169893865', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 124.382, 'valueDate': '', 'grossPL': -11.34, 'close': 124.335, 'visiblePL': -4.7, 'currency': 'EUR/JPY', 'isBuy': True, 'amountK': 30, 'TradeIDOrigin': None, 'CloseOrderID': '365802662', 'CloseOrderReqID': 'Request-110860', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 2.41267, 'openTime': '10132020113537', 'closeTime': '10132020113643', 'action': 'I'}.
+|WARNING|2020-10-13 13:36:42,477|Got a delete event for open posi: {'t': 1, 'tradeId': '169893865', 'action': 'D'}
+|ERROR|2020-10-13 13:36:42,498|Server reports an error: {'executed': False, 'error': '{"code":1,"parameters":[],"message":"The specified trade does not exist"}'}.
+|ERROR|2020-10-13 13:36:42,498|URL: https://api-demo.fxcm.com:443/trading/close_trade
+|ERROR|2020-10-13 13:36:42,498|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer KzxsQiZQ9yIC9jzYAeT53d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '68'}
+|ERROR|2020-10-13 13:36:42,498|Params: {'trade_id': 169893865, 'amount': 30.0, 'order_type': 'AtMarket', 'time_in_force': 'IOC'}
+|ERROR|2020-10-13 13:36:42,498|Bearer token: Bearer KzxsQiZQ9yIC9jzYAeT53d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+|ERROR|2020-10-13 13:36:42,499|Connection status: established
+|ERROR|2020-10-13 13:36:42,499|Socket session id: KzxsQiZQ9yIC9jzYAeT5
+|ERROR|2020-10-13 13:36:42,499|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":1,\"parameters\":[],\"message\":\"The specified trade does not exist\"}"},"data":{}}.
+|WARNING|2020-10-13 13:41:15,482|Can not find Order object, returning None.
+|WARNING|2020-10-13 13:43:37,421|Can not find Order object, returning None.
+|WARNING|2020-10-13 14:25:07,893|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-13 14:28:31,800|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169894479', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 124.42, 'valueDate': '', 'grossPL': -4.34077, 'close': 124.402, 'visiblePL': -1.8, 'isDisabled': False, 'currency': 'EUR/JPY', 'isBuy': True, 'amountK': 30, 'currencyPoint': 2.41136, 'time': '10132020122832', 'usedMargin': 499.5, 'OpenOrderRequestTXT': 'FXTS', 'stop': 0, 'stopMove': 0, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-13 14:28:31,802|Got a delete event for orders: {'t': 3, 'orderId': '365804822', 'action': 'D'}.
+|WARNING|2020-10-13 14:28:36,196|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169894479', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 124.42, 'valueDate': '', 'grossPL': -4.58, 'close': 124.401, 'visiblePL': -1.9, 'currency': 'EUR/JPY', 'isBuy': True, 'amountK': 30, 'TradeIDOrigin': None, 'CloseOrderID': '365804825', 'CloseOrderReqID': 'Request-137341', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,fxts2,4,d,4001,Midnight,4003,MO,4004]', 'TradeIDRemain': None, 'currencyPoint': 2.41138, 'openTime': '10132020122832', 'closeTime': '10132020122837', 'action': 'I'}.
+|WARNING|2020-10-13 14:28:36,198|Got a delete event for open posi: {'t': 1, 'tradeId': '169894479', 'action': 'D'}
+|WARNING|2020-10-13 14:29:41,309|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169894482', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 124.428, 'valueDate': '', 'grossPL': -5.30521, 'close': 124.406, 'visiblePL': -2.2, 'isDisabled': False, 'currency': 'EUR/JPY', 'isBuy': True, 'amountK': 30, 'currencyPoint': 2.41127, 'time': '10132020122942', 'usedMargin': 499.5, 'OpenOrderRequestTXT': None, 'stop': 124.348, 'stopMove': 9.9, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-13 14:29:41,311|Got a delete event for orders: {'t': 3, 'orderId': '365804837', 'action': 'D'}.
+|WARNING|2020-10-13 14:31:52,149|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-13 14:36:24,220|Got a delete event for orders: {'t': 3, 'orderId': '365805159', 'action': 'D'}.
+|WARNING|2020-10-13 14:36:24,221|Got a insert event for open positions: {'t': 1, 'ratePrecision': 5, 'tradeId': '169894551', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 1.30986, 'valueDate': '', 'grossPL': -4.27139, 'close': 1.31008, 'visiblePL': -2.2, 'isDisabled': False, 'currency': 'USD/CAD', 'isBuy': False, 'amountK': 30, 'currencyPoint': 1.94154, 'time': '10132020123625', 'usedMargin': 499.5, 'OpenOrderRequestTXT': None, 'stop': 1.31142, 'stopMove': 10, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-13 14:37:57,101|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-13 14:40:17,463|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-13 14:45:22,909|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 5, 'tradeId': '169894551', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 1.30986, 'valueDate': '', 'grossPL': -23.09, 'close': 1.31105, 'visiblePL': -11.9, 'currency': 'USD/CAD', 'isBuy': False, 'amountK': 30, 'TradeIDOrigin': None, 'CloseOrderID': '365805293', 'CloseOrderReqID': 'EUDEMO_9D7A1CC246AD7F20E053E12B3C0A0F16_10132020092550571899_Q1X-4729', 'CloseOrderRequestTXT': 'FXTS', 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 1.94067, 'openTime': '10132020123625', 'closeTime': '10132020124524', 'action': 'I'}.
+|WARNING|2020-10-13 14:45:22,912|Got a delete event for open posi: {'t': 1, 'tradeId': '169894551', 'action': 'D'}
+|ERROR|2020-10-13 15:26:09,925|Server reports an error: {'executed': False, 'error': '{"code":8,"message":"The Limit rate must be > 105.603","parameters":[">",105.603]}'}.
+|ERROR|2020-10-13 15:26:09,925|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-13 15:26:09,925|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '175'}
+|ERROR|2020-10-13 15:26:09,925|Params: {'account_id': 1244307, 'symbol': 'USD/JPY', 'is_buy': 'true', 'rate': 0.0, 'amount': 30, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 5.0, 'is_in_pips': 'false', 'stop': 105.434, 'trailing_step': 10}
+|ERROR|2020-10-13 15:26:09,925|Bearer token: Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+|ERROR|2020-10-13 15:26:09,926|Connection status: established
+|ERROR|2020-10-13 15:26:09,926|Socket session id: F_ZJ5m4naQuFjLeWAeYZ
+|ERROR|2020-10-13 15:26:09,926|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":8,\"message\":\"The Limit rate must be > 105.603\",\"parameters\":[\">\",105.603]}"},"data":{}}.
+|WARNING|2020-10-13 15:26:09,926|Missing orderId in servers answer.
+|ERROR|2020-10-13 15:26:10,120|Server reports an error: {'executed': False, 'error': '{"code":8,"message":"The Limit rate must be <= 2.41202","parameters":["<=",2.41202]}'}.
+|ERROR|2020-10-13 15:26:10,120|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-13 15:26:10,120|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '175'}
+|ERROR|2020-10-13 15:26:10,120|Params: {'account_id': 1244307, 'symbol': 'USD/CHF', 'is_buy': 'true', 'rate': 0.0, 'amount': 30, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 5.0, 'is_in_pips': 'false', 'stop': 0.91036, 'trailing_step': 10}
+|ERROR|2020-10-13 15:26:10,120|Bearer token: Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+|ERROR|2020-10-13 15:26:10,120|Connection status: established
+|ERROR|2020-10-13 15:26:10,120|Socket session id: F_ZJ5m4naQuFjLeWAeYZ
+|ERROR|2020-10-13 15:26:10,120|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":8,\"message\":\"The Limit rate must be <= 2.41202\",\"parameters\":[\"<=\",2.41202]}"},"data":{}}.
+|WARNING|2020-10-13 15:26:10,120|Missing orderId in servers answer.
+|ERROR|2020-10-13 15:26:10,301|Server reports an error: {'executed': False, 'error': '{"code":8,"message":"The Limit rate must be < 0.66427","parameters":["<",0.66427]}'}.
+|ERROR|2020-10-13 15:26:10,301|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-13 15:26:10,301|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '175'}
+|ERROR|2020-10-13 15:26:10,301|Params: {'account_id': 1244307, 'symbol': 'NZD/USD', 'is_buy': 'false', 'rate': 0.0, 'amount': 5, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 5.0, 'is_in_pips': 'false', 'stop': 0.66564, 'trailing_step': 10}
+|ERROR|2020-10-13 15:26:10,302|Bearer token: Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+|ERROR|2020-10-13 15:26:10,302|Connection status: established
+|ERROR|2020-10-13 15:26:10,302|Socket session id: F_ZJ5m4naQuFjLeWAeYZ
+|ERROR|2020-10-13 15:26:10,302|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":8,\"message\":\"The Limit rate must be < 0.66427\",\"parameters\":[\"<\",0.66427]}"},"data":{}}.
+|WARNING|2020-10-13 15:26:10,302|Missing orderId in servers answer.
+|ERROR|2020-10-13 15:27:16,155|Server reports an error: {'executed': False, 'error': '{"code":8,"message":"The Limit rate must be > 105.602","parameters":[">",105.602]}'}.
+|ERROR|2020-10-13 15:27:16,155|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-13 15:27:16,155|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '175'}
+|ERROR|2020-10-13 15:27:16,155|Params: {'account_id': 1244307, 'symbol': 'USD/JPY', 'is_buy': 'true', 'rate': 0.0, 'amount': 30, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 5.0, 'is_in_pips': 'false', 'stop': 105.434, 'trailing_step': 10}
+|ERROR|2020-10-13 15:27:16,155|Bearer token: Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+|ERROR|2020-10-13 15:27:16,155|Connection status: established
+|ERROR|2020-10-13 15:27:16,155|Socket session id: F_ZJ5m4naQuFjLeWAeYZ
+|ERROR|2020-10-13 15:27:16,155|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":8,\"message\":\"The Limit rate must be > 105.602\",\"parameters\":[\">\",105.602]}"},"data":{}}.
+|WARNING|2020-10-13 15:27:16,155|Missing orderId in servers answer.
+|ERROR|2020-10-13 15:27:16,520|Server reports an error: {'executed': False, 'error': '{"code":8,"message":"The Limit rate must be <= 2.41193","parameters":["<=",2.41193]}'}.
+|ERROR|2020-10-13 15:27:16,520|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-13 15:27:16,521|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '175'}
+|ERROR|2020-10-13 15:27:16,521|Params: {'account_id': 1244307, 'symbol': 'USD/CHF', 'is_buy': 'true', 'rate': 0.0, 'amount': 30, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 5.0, 'is_in_pips': 'false', 'stop': 0.91036, 'trailing_step': 10}
+|ERROR|2020-10-13 15:27:16,521|Bearer token: Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+|ERROR|2020-10-13 15:27:16,521|Connection status: established
+|ERROR|2020-10-13 15:27:16,521|Socket session id: F_ZJ5m4naQuFjLeWAeYZ
+|ERROR|2020-10-13 15:27:16,522|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":8,\"message\":\"The Limit rate must be <= 2.41193\",\"parameters\":[\"<=\",2.41193]}"},"data":{}}.
+|WARNING|2020-10-13 15:27:16,522|Missing orderId in servers answer.
+|ERROR|2020-10-13 15:27:16,782|Server reports an error: {'executed': False, 'error': '{"code":8,"message":"The Limit rate must be < 0.66437","parameters":["<",0.66437]}'}.
+|ERROR|2020-10-13 15:27:16,782|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-13 15:27:16,782|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '175'}
+|ERROR|2020-10-13 15:27:16,782|Params: {'account_id': 1244307, 'symbol': 'NZD/USD', 'is_buy': 'false', 'rate': 0.0, 'amount': 5, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 5.0, 'is_in_pips': 'false', 'stop': 0.66564, 'trailing_step': 10}
+|ERROR|2020-10-13 15:27:16,782|Bearer token: Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+|ERROR|2020-10-13 15:27:16,782|Connection status: established
+|ERROR|2020-10-13 15:27:16,782|Socket session id: F_ZJ5m4naQuFjLeWAeYZ
+|ERROR|2020-10-13 15:27:16,783|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":8,\"message\":\"The Limit rate must be < 0.66437\",\"parameters\":[\"<\",0.66437]}"},"data":{}}.
+|WARNING|2020-10-13 15:27:16,783|Missing orderId in servers answer.
+|ERROR|2020-10-13 15:28:22,185|Server reports an error: {'executed': False, 'error': '{"code":8,"message":"The Limit rate must be > 105.604","parameters":[">",105.604]}'}.
+|ERROR|2020-10-13 15:28:22,185|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-13 15:28:22,185|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '175'}
+|ERROR|2020-10-13 15:28:22,185|Params: {'account_id': 1244307, 'symbol': 'USD/JPY', 'is_buy': 'true', 'rate': 0.0, 'amount': 30, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 5.0, 'is_in_pips': 'false', 'stop': 105.434, 'trailing_step': 10}
+|ERROR|2020-10-13 15:28:22,185|Bearer token: Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+|ERROR|2020-10-13 15:28:22,185|Connection status: established
+|ERROR|2020-10-13 15:28:22,185|Socket session id: F_ZJ5m4naQuFjLeWAeYZ
+|ERROR|2020-10-13 15:28:22,186|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":8,\"message\":\"The Limit rate must be > 105.604\",\"parameters\":[\">\",105.604]}"},"data":{}}.
+|WARNING|2020-10-13 15:28:22,186|Missing orderId in servers answer.
+|ERROR|2020-10-13 15:28:22,374|Server reports an error: {'executed': False, 'error': '{"code":8,"message":"The Limit rate must be <= 2.4118","parameters":["<=",2.4118]}'}.
+|ERROR|2020-10-13 15:28:22,374|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-13 15:28:22,374|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '175'}
+|ERROR|2020-10-13 15:28:22,374|Params: {'account_id': 1244307, 'symbol': 'USD/CHF', 'is_buy': 'true', 'rate': 0.0, 'amount': 30, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 5.0, 'is_in_pips': 'false', 'stop': 0.91036, 'trailing_step': 10}
+|ERROR|2020-10-13 15:28:22,374|Bearer token: Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+|ERROR|2020-10-13 15:28:22,374|Connection status: established
+|ERROR|2020-10-13 15:28:22,375|Socket session id: F_ZJ5m4naQuFjLeWAeYZ
+|ERROR|2020-10-13 15:28:22,375|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":8,\"message\":\"The Limit rate must be <= 2.4118\",\"parameters\":[\"<=\",2.4118]}"},"data":{}}.
+|WARNING|2020-10-13 15:28:22,375|Missing orderId in servers answer.
+|ERROR|2020-10-13 15:28:22,566|Server reports an error: {'executed': False, 'error': '{"code":8,"message":"The Limit rate must be < 0.66435","parameters":["<",0.66435]}'}.
+|ERROR|2020-10-13 15:28:22,566|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-13 15:28:22,566|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '175'}
+|ERROR|2020-10-13 15:28:22,566|Params: {'account_id': 1244307, 'symbol': 'NZD/USD', 'is_buy': 'false', 'rate': 0.0, 'amount': 5, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 5.0, 'is_in_pips': 'false', 'stop': 0.66564, 'trailing_step': 10}
+|ERROR|2020-10-13 15:28:22,566|Bearer token: Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+|ERROR|2020-10-13 15:28:22,566|Connection status: established
+|ERROR|2020-10-13 15:28:22,566|Socket session id: F_ZJ5m4naQuFjLeWAeYZ
+|ERROR|2020-10-13 15:28:22,566|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":8,\"message\":\"The Limit rate must be < 0.66435\",\"parameters\":[\"<\",0.66435]}"},"data":{}}.
+|WARNING|2020-10-13 15:28:22,567|Missing orderId in servers answer.
+|ERROR|2020-10-13 15:29:27,721|Server reports an error: {'executed': False, 'error': '{"code":8,"message":"The Limit rate must be > 105.595","parameters":[">",105.595]}'}.
+|ERROR|2020-10-13 15:29:27,721|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-13 15:29:27,721|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '175'}
+|ERROR|2020-10-13 15:29:27,721|Params: {'account_id': 1244307, 'symbol': 'USD/JPY', 'is_buy': 'true', 'rate': 0.0, 'amount': 30, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 5.0, 'is_in_pips': 'false', 'stop': 105.434, 'trailing_step': 10}
+|ERROR|2020-10-13 15:29:27,721|Bearer token: Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+|ERROR|2020-10-13 15:29:27,721|Connection status: established
+|ERROR|2020-10-13 15:29:27,722|Socket session id: F_ZJ5m4naQuFjLeWAeYZ
+|ERROR|2020-10-13 15:29:27,722|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":8,\"message\":\"The Limit rate must be > 105.595\",\"parameters\":[\">\",105.595]}"},"data":{}}.
+|WARNING|2020-10-13 15:29:27,722|Missing orderId in servers answer.
+|ERROR|2020-10-13 15:29:27,914|Server reports an error: {'executed': False, 'error': '{"code":8,"message":"The Limit rate must be <= 2.41186","parameters":["<=",2.41186]}'}.
+|ERROR|2020-10-13 15:29:27,914|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-13 15:29:27,914|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '175'}
+|ERROR|2020-10-13 15:29:27,915|Params: {'account_id': 1244307, 'symbol': 'USD/CHF', 'is_buy': 'true', 'rate': 0.0, 'amount': 30, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 5.0, 'is_in_pips': 'false', 'stop': 0.91036, 'trailing_step': 10}
+|ERROR|2020-10-13 15:29:27,915|Bearer token: Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+|ERROR|2020-10-13 15:29:27,915|Connection status: established
+|ERROR|2020-10-13 15:29:27,915|Socket session id: F_ZJ5m4naQuFjLeWAeYZ
+|ERROR|2020-10-13 15:29:27,915|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":8,\"message\":\"The Limit rate must be <= 2.41186\",\"parameters\":[\"<=\",2.41186]}"},"data":{}}.
+|WARNING|2020-10-13 15:29:27,915|Missing orderId in servers answer.
+|ERROR|2020-10-13 15:29:28,115|Server reports an error: {'executed': False, 'error': '{"code":8,"message":"The Limit rate must be < 0.66435","parameters":["<",0.66435]}'}.
+|ERROR|2020-10-13 15:29:28,116|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-13 15:29:28,116|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '175'}
+|ERROR|2020-10-13 15:29:28,116|Params: {'account_id': 1244307, 'symbol': 'NZD/USD', 'is_buy': 'false', 'rate': 0.0, 'amount': 5, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 5.0, 'is_in_pips': 'false', 'stop': 0.66564, 'trailing_step': 10}
+|ERROR|2020-10-13 15:29:28,116|Bearer token: Bearer F_ZJ5m4naQuFjLeWAeYZ3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+|ERROR|2020-10-13 15:29:28,116|Connection status: established
+|ERROR|2020-10-13 15:29:28,116|Socket session id: F_ZJ5m4naQuFjLeWAeYZ
+|ERROR|2020-10-13 15:29:28,116|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":8,\"message\":\"The Limit rate must be < 0.66435\",\"parameters\":[\"<\",0.66435]}"},"data":{}}.
+|WARNING|2020-10-13 15:29:28,117|Missing orderId in servers answer.
+|WARNING|2020-10-13 15:30:14,069|Default account set to 1244307, to change use set_default_account().
+|ERROR|2020-10-13 15:30:25,775|Server reports an error: {'executed': False, 'error': '{"code":8,"message":"The Limit rate must be > 105.597","parameters":[">",105.597]}'}.
+|ERROR|2020-10-13 15:30:25,775|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-13 15:30:25,776|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer Mx7sv8cswHNxELz6AebF3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '175'}
+|ERROR|2020-10-13 15:30:25,776|Params: {'account_id': 1244307, 'symbol': 'USD/JPY', 'is_buy': 'true', 'rate': 0.0, 'amount': 30, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 5.0, 'is_in_pips': 'false', 'stop': 105.434, 'trailing_step': 10}
+|ERROR|2020-10-13 15:30:25,776|Bearer token: Bearer Mx7sv8cswHNxELz6AebF3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+|ERROR|2020-10-13 15:30:25,776|Connection status: established
+|ERROR|2020-10-13 15:30:25,776|Socket session id: Mx7sv8cswHNxELz6AebF
+|ERROR|2020-10-13 15:30:25,776|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":8,\"message\":\"The Limit rate must be > 105.597\",\"parameters\":[\">\",105.597]}"},"data":{}}.
+|WARNING|2020-10-13 15:30:25,776|Missing orderId in servers answer.
+|ERROR|2020-10-13 15:30:25,979|Server reports an error: {'executed': False, 'error': '{"code":8,"message":"The Limit rate must be <= 2.41186","parameters":["<=",2.41186]}'}.
+|ERROR|2020-10-13 15:30:25,979|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-13 15:30:25,979|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer Mx7sv8cswHNxELz6AebF3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '175'}
+|ERROR|2020-10-13 15:30:25,979|Params: {'account_id': 1244307, 'symbol': 'USD/CHF', 'is_buy': 'true', 'rate': 0.0, 'amount': 30, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 5.0, 'is_in_pips': 'false', 'stop': 0.91036, 'trailing_step': 10}
+|ERROR|2020-10-13 15:30:25,979|Bearer token: Bearer Mx7sv8cswHNxELz6AebF3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+|ERROR|2020-10-13 15:30:25,979|Connection status: established
+|ERROR|2020-10-13 15:30:25,979|Socket session id: Mx7sv8cswHNxELz6AebF
+|ERROR|2020-10-13 15:30:25,979|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":8,\"message\":\"The Limit rate must be <= 2.41186\",\"parameters\":[\"<=\",2.41186]}"},"data":{}}.
+|WARNING|2020-10-13 15:30:25,979|Missing orderId in servers answer.
+|ERROR|2020-10-13 15:30:26,179|Server reports an error: {'executed': False, 'error': '{"code":8,"message":"The Limit rate must be < 0.66422","parameters":["<",0.66422]}'}.
+|ERROR|2020-10-13 15:30:26,179|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-13 15:30:26,179|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer Mx7sv8cswHNxELz6AebF3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '175'}
+|ERROR|2020-10-13 15:30:26,179|Params: {'account_id': 1244307, 'symbol': 'NZD/USD', 'is_buy': 'false', 'rate': 0.0, 'amount': 5, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 5.0, 'is_in_pips': 'false', 'stop': 0.66564, 'trailing_step': 10}
+|ERROR|2020-10-13 15:30:26,180|Bearer token: Bearer Mx7sv8cswHNxELz6AebF3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+|ERROR|2020-10-13 15:30:26,180|Connection status: established
+|ERROR|2020-10-13 15:30:26,180|Socket session id: Mx7sv8cswHNxELz6AebF
+|ERROR|2020-10-13 15:30:26,180|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":8,\"message\":\"The Limit rate must be < 0.66422\",\"parameters\":[\"<\",0.66422]}"},"data":{}}.
+|WARNING|2020-10-13 15:30:26,180|Missing orderId in servers answer.
+|WARNING|2020-10-13 15:30:44,740|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-13 16:05:27,801|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-14 10:50:56,566|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-14 11:21:23,157|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-14 11:45:48,444|Got a delete event for orders: {'t': 3, 'orderId': '365838836', 'action': 'D'}.
+|WARNING|2020-10-14 11:45:48,445|Got a insert event for open positions: {'t': 1, 'ratePrecision': 3, 'tradeId': '169904518', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 105.47, 'valueDate': '', 'grossPL': -0.48539, 'close': 105.458, 'visiblePL': -1.2, 'isDisabled': False, 'currency': 'USD/JPY', 'isBuy': True, 'amountK': 5, 'currencyPoint': 0.40449, 'time': '10142020094549', 'usedMargin': 83.25, 'OpenOrderRequestTXT': None, 'stop': 105.448, 'stopMove': 10, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-14 11:57:28,934|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 3, 'tradeId': '169904518', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 105.47, 'valueDate': '', 'grossPL': -0.89, 'close': 105.448, 'visiblePL': -2.2, 'currency': 'USD/JPY', 'isBuy': True, 'amountK': 5, 'TradeIDOrigin': None, 'CloseOrderID': '365838969', 'CloseOrderReqID': 'Request-650082', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.40431, 'openTime': '10142020094549', 'closeTime': '10142020095730', 'action': 'I'}.
+|WARNING|2020-10-14 11:57:28,943|Got a delete event for open posi: {'t': 1, 'tradeId': '169904518', 'action': 'D'}
+|ERROR|2020-10-14 13:11:09,584|Server reports an error: {'executed': False, 'error': '{"code":7,"message":"The Stop rate must be ","parameters":[">",105.407]}'}.
+|ERROR|2020-10-14 13:11:09,586|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2020-10-14 13:11:09,586|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer gHLcjlIIMK65re1sBZgh3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '163'}
+|ERROR|2020-10-14 13:11:09,586|Params: {'account_id': 1244307, 'symbol': 'USD/JPY', 'is_buy': 'false', 'rate': 0.0, 'amount': 5, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': None, 'is_in_pips': 'false', 'stop': 105.4, 'trailing_step': 10}
+|ERROR|2020-10-14 13:11:09,586|Bearer token: Bearer gHLcjlIIMK65re1sBZgh3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a
+|ERROR|2020-10-14 13:11:09,586|Connection status: established
+|ERROR|2020-10-14 13:11:09,586|Socket session id: gHLcjlIIMK65re1sBZgh
+|ERROR|2020-10-14 13:11:09,586|Can not parse server answer to json object: {"response":{"executed":false,"error":"{\"code\":7,\"message\":\"The Stop rate must be \",\"parameters\":[\">\",105.407]}"},"data":{}}.
+|WARNING|2020-10-14 13:11:09,587|Missing orderId in servers answer.
+|WARNING|2020-10-14 13:12:41,653|Can not find Order object, returning None.
+|WARNING|2020-10-14 13:14:13,759|Can not find Order object, returning None.
+|WARNING|2020-10-14 13:57:08,169|Default account set to 1244307, to change use set_default_account().
+|ERROR|2020-10-14 14:30:14,243|Connection error: Connection refused by the server
+|WARNING|2020-10-14 16:28:25,859|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-14 16:28:38,460|Got a insert event for open positions: {'t': 1, 'ratePrecision': 5, 'tradeId': '169908990', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 1.31426, 'valueDate': '', 'grossPL': -0.67955, 'close': 1.31405, 'visiblePL': -2.1, 'isDisabled': False, 'currency': 'USD/CAD', 'isBuy': True, 'amountK': 5, 'currencyPoint': 0.32359, 'time': '10142020142840', 'usedMargin': 83.25, 'OpenOrderRequestTXT': None, 'stop': 1.31314, 'stopMove': 10, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-14 16:28:38,467|Got a delete event for orders: {'t': 3, 'orderId': '365854052', 'action': 'D'}.
+|WARNING|2020-10-14 16:32:04,316|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-14 16:37:41,092|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 5, 'tradeId': '169908990', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 1.31426, 'valueDate': '', 'grossPL': -2.72, 'close': 1.31342, 'visiblePL': -8.4, 'currency': 'USD/CAD', 'isBuy': True, 'amountK': 5, 'TradeIDOrigin': None, 'CloseOrderID': '365854850', 'CloseOrderReqID': 'Request-884652', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.32367, 'openTime': '10142020142840', 'closeTime': '10142020143742', 'action': 'I'}.
+|WARNING|2020-10-14 16:37:41,110|Got a delete event for open posi: {'t': 1, 'tradeId': '169908990', 'action': 'D'}
+|WARNING|2020-10-14 17:15:51,494|Can not find Order object, returning None.
+|ERROR|2020-10-14 18:58:39,873|Socket returns unknown error.
+|ERROR|2020-10-14 18:58:39,879|Connection aborted, failed to reconnect
+|WARNING|2020-10-15 10:46:17,780|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-15 10:50:35,415|Got a insert event for open positions: {'t': 1, 'ratePrecision': 5, 'tradeId': '169918453', 'accountName': '01244307', 'accountId': '1244307', 'roll': 0, 'com': 0, 'open': 0.9047, 'valueDate': '', 'grossPL': -0.93971, 'close': 0.90453, 'visiblePL': -1.7, 'isDisabled': False, 'currency': 'EUR/GBP', 'isBuy': True, 'amountK': 5, 'currencyPoint': 0.55272, 'time': '10152020085037', 'usedMargin': 83.25, 'OpenOrderRequestTXT': None, 'stop': 0.90308, 'stopMove': 10, 'limit': 0, 'action': 'I'}.
+|WARNING|2020-10-15 10:50:35,425|Got a delete event for orders: {'t': 3, 'orderId': '365885417', 'action': 'D'}.
+|WARNING|2020-10-15 11:17:44,427|Got a insert event for closed positions: {'t': 2, 'ratePrecision': 5, 'tradeId': '169918453', 'accountName': '01244307', 'roll': 0, 'com': 0, 'open': 0.9047, 'valueDate': '', 'grossPL': -6.25, 'close': 0.90357, 'visiblePL': -11.3, 'currency': 'EUR/GBP', 'isBuy': True, 'amountK': 5, 'TradeIDOrigin': None, 'CloseOrderID': '365886854', 'CloseOrderReqID': 'Request-1573434', 'CloseOrderRequestTXT': None, 'CloseOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'OpenOrderParties': '[fxcm.com,C,13,DFX4,4,d,4001]', 'TradeIDRemain': None, 'currencyPoint': 0.55329, 'openTime': '10152020085037', 'closeTime': '10152020091746', 'action': 'I'}.
+|WARNING|2020-10-15 11:17:44,540|Got a delete event for open posi: {'t': 1, 'tradeId': '169918453', 'action': 'D'}
+|ERROR|2020-10-15 12:23:43,680|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2020-10-15 12:23:43,685|URL: https://api-demo.fxcm.com:443/candles/11/m5?num=104
+|ERROR|2020-10-15 12:23:43,685|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer bTdfAvJsI0i9dhCjAIwY3d2c1e7fccc4e7dbe5cee89c58f6b34a2ba9743a', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2020-10-15 12:23:43,685|Params: {'num': 104}
+|ERROR|2020-10-15 12:23:43,686|Bearer token: None
+|ERROR|2020-10-15 12:23:43,686|Connection status: unset
+|ERROR|2020-10-15 12:23:43,686|Socket session id: None
+|ERROR|2020-10-15 12:23:43,686|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"},"instrument_id":0,"period_id":0,"candles":[]}.
+|WARNING|2020-10-15 14:34:52,147|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-15 14:42:53,398|Default account set to 1244307, to change use set_default_account().
+|WARNING|2020-10-15 14:43:22,676|Can not unsubscribe instrument FAANG
