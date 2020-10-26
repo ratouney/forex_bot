@@ -8,9 +8,9 @@ defaultArgs = {
     'low': "Low",
     'open': "Open",
     'close': "Close",
-    'tkp': 9,
-    'kjp': 26,
-    'skbp': 52,
+    'tkp': 15,
+    'kjp': 52,
+    'skbp': 104,
     'decimalpip': 5,
 }
 

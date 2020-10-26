@@ -8,7 +8,6 @@ from datetime import datetime
 
 s = Session("43038ce05fe884fbc730cfc2835abc8e68d799fe")
 
-
 instrument_list = None
 if s.isConnected():
     instrument_list = s.getConnection().get_instruments()
