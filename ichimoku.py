@@ -477,6 +477,8 @@ def run(con):
                 # rt = con.open_trade(symbol=row['Currency'], is_buy=isBuy, amount=money, time_in_force='GTC', order_type='AtMarket', is_in_pips=True, trailing_step=10)
                 order = con.open_trade(symbol=row['Currency'], is_buy=isBuy, amount=money, time_in_force='GTC', order_type='AtMarket', is_in_pips=False, stop=close, trailing_step=10)
                 print('Created order : ', order)
+                if order == 0:
+                    con.open_trade(symbol=row['Currency'], is_buy=isBuy, amount=money, time_in_force='GTC', order_type='AtMarket')
                 # if rt != 0:
                     # oid = rt['tradeId']
                     # print("Oid : ", oid)
