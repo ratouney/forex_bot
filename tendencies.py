@@ -197,14 +197,14 @@ def botcheck(currency):
 
 def buying(canbuy, con):
 
-    periodN = 500
-    data = con.get_candles('EUR/USD', period='m1', number=periodN)
-    stop = False
-    MVA1 = createtendency(data, int(periodN / 20), periodN)
-    MVA2 = createtendency(data, int(periodN / 10), periodN)
-    MVA3 = createtendency(data, int(periodN / 5), periodN)
-    rsi = rsicalculation(data, periodN)
-    dmi = dmicalculation(data, periodN)
+    # periodN = 500
+    # data = con.get_candles('EUR/USD', period='m1', number=periodN)
+    # stop = False
+    # MVA1 = createtendency(data, int(periodN / 20), periodN)
+    # MVA2 = createtendency(data, int(periodN / 10), periodN)
+    # MVA3 = createtendency(data, int(periodN / 5), periodN)
+    # rsi = rsicalculation(data, periodN)
+    # dmi = dmicalculation(data, periodN)
 
     openP = con.get_open_positions().T
     # print(openP)
