@@ -395,7 +395,7 @@ def run(con):
 
     print(f'Checking possible new trades on : {mainPeriod}')
     for index, row in full.iterrows():
-        money = 100
+        money = 20
         shortConf = False
         longConf = False
         if row['choice'] != None:
@@ -420,7 +420,7 @@ def run(con):
                     if r['choice'] == row['choice']:
                         # Confirmed signal between M1 and M5
                         print(f'\t\tConfirmed for {confirmationPeriod} ! Upping the investment')
-                        money += 50
+                        money += 20
                         shortConf = True
             
             print("\tChecking confirmation on long signal")
@@ -429,7 +429,7 @@ def run(con):
                     if r['choice'] == row['choice']:
                         # Confirmed signal between M1 and M5
                         print(f'\t\tConfirmed for {validationPeriod} ! Upping the investment')
-                        money += 100
+                        money += 40
                         longConf = True
 
             # If the signal is confirmed to be longer
@@ -475,10 +475,18 @@ def run(con):
                 print("\tTrade confirmed and opening with an exit on ", close)
                 # print("\tTrade confirmed and opening with an exit on -20 pips")
                 # rt = con.open_trade(symbol=row['Currency'], is_buy=isBuy, amount=money, time_in_force='GTC', order_type='AtMarket', is_in_pips=True, trailing_step=10)
-                order = con.open_trade(symbol=row['Currency'], is_buy=isBuy, amount=money, time_in_force='GTC', order_type='AtMarket', is_in_pips=False, stop=close, trailing_step=10)
+                tries = 3
+                order = 0
+                while order == 0 and tries > 0:
+                    print("Trying to open a trade")
+                    order = con.open_trade(symbol=row['Currency'], is_buy=isBuy, amount=money, time_in_force='GTC', order_type='AtMarket', is_in_pips=False, stop=close, trailing_step=10)
+                    tries -= 1
+                    time.sleep(1)
                 print('Created order : ', order)
                 if order == 0:
-                    con.open_trade(symbol=row['Currency'], is_buy=isBuy, amount=money, time_in_force='GTC', order_type='AtMarket')
+                    print("Just blunt creating ?")
+                    order = con.open_trade(symbol=row['Currency'], is_buy=isBuy, amount=money, time_in_force='GTC', order_type='AtMarket')
+                    print("Order? : ", o)
                 # if rt != 0:
                     # oid = rt['tradeId']
                     # print("Oid : ", oid)
