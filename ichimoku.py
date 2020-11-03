@@ -30,13 +30,13 @@ def indicDMI(periodN, periodV, currency, redline, con):
     dmi = dmicalculation(data, periodN2)
     for i in range (periodN2):
         if (dmi[1][i] == -21):
-            # print("can't buy (-21)")
+            print("can't buy (-21)")
             redline = False
     for i in range (periodN2):
         if (dmi[1][i] <= 0):
             y = y + 1
     if (y >= int(periodN2 - periodN2 / 3)):
-        # print("can't buy (7/10 < 0)")
+        print("can't buy (7/10 < 0)")
         redline = False
     return redline
 
@@ -168,7 +168,7 @@ def resultbycurrency(con, currency, period, periodCount):
     redline = indicDMI(periodN, 'm15', currency, redline, con)
     result['DMI'] = redline
     if (redline == True):
-        # print("You can buy now on " + currency)
+        print("You can buy now on " + currency)
         result['tendencyValidation'] = True
         redline = False
     rsiOutput = indicRSI(periodN, 'm15', currency, redline, con)
@@ -214,7 +214,6 @@ def addToCandles(currency, candles, **kwargs):
 
 def analyse(currency, candles, args):
     decimalpip = args['decimalpip']
-    print("DecimalPip : ", decimalpip)
 
     blocks = len(candles)
 
@@ -408,7 +407,12 @@ def run(con):
                 continue
 
             if row['DMI'] == False:
-                print("\tDMI is ")
+                print("\tDMI indicates trades are unstable")
+                continue
+
+            if row['chikouClose'] == True:
+                print("\tChikou in the price, no clear tendency !")
+                continue
 
             print("\tChecking confirmation on short signal")
             for idx, r in confirmation.iterrows():
@@ -416,7 +420,7 @@ def run(con):
                     if r['choice'] == row['choice']:
                         # Confirmed signal between M1 and M5
                         print(f'\t\tConfirmed for {confirmationPeriod} ! Upping the investment')
-                        money *= 2
+                        money += 50
                         shortConf = True
             
             print("\tChecking confirmation on long signal")
@@ -425,8 +429,14 @@ def run(con):
                     if r['choice'] == row['choice']:
                         # Confirmed signal between M1 and M5
                         print(f'\t\tConfirmed for {validationPeriod} ! Upping the investment')
-                        money *= 2
+                        money += 100
                         longConf = True
+
+            # If the signal is confirmed to be longer
+            if shortConf == True or longConf == True:
+                print(f'\tTendencies validate current trend, upping investment.')
+                if row['tendencyValidation'] == True:
+                    money *= 2
 
             # Now, make the trade
             print("\tOpening a ", row['choice'], "on ", row['Currency'], " for ", money)
@@ -454,10 +464,6 @@ def run(con):
                 print("\tWaiting for a turning point !")
                 # continue
 
-            if row['chikouClose'] == True:
-                print("\tChikou in the price, no clear tendency !")
-                continue
-
             if found == False:
                 # If fixed, change the pips too
                 # isInPips = False
@@ -468,9 +474,9 @@ def run(con):
                     close = row['closeA']
                 print("\tTrade confirmed and opening with an exit on ", close)
                 # print("\tTrade confirmed and opening with an exit on -20 pips")
-                rt = con.open_trade(symbol=row['Currency'], is_buy=isBuy, amount=money, time_in_force='GTC', order_type='AtMarket', is_in_pips=False, trailing_step=10)
-                print('RT : ', rt)
-
+                # rt = con.open_trade(symbol=row['Currency'], is_buy=isBuy, amount=money, time_in_force='GTC', order_type='AtMarket', is_in_pips=True, trailing_step=10)
+                order = con.open_trade(symbol=row['Currency'], is_buy=isBuy, amount=money, time_in_force='GTC', order_type='AtMarket', is_in_pips=False, stop=close, trailing_step=10)
+                print('Created order : ', order)
                 # if rt != 0:
                     # oid = rt['tradeId']
                     # print("Oid : ", oid)
@@ -481,7 +487,6 @@ def run(con):
                         # con.change_trade_stop_limit(oid, is_in_pips=True, is_stop=False, rate=30.0)
                     # else:
                         # con.change_trade_stop_limit(oid, is_in_pips=True, is_stop=False, rate=5.0)
-                # con.open_trade(symbol=row['Currency'], is_buy=isBuy, amount=money, time_in_force='GTC', order_type='AtMarket', stop=-15, trailing_step=10)
 
     print("Done")
     print("==========================================")
@@ -493,6 +498,7 @@ def run(con):
     for idx in orders:
         o = orders[idx]
         cur = o['currency']
+        print("Order on ", cur)
         if o['limit'] == 0:
             con.change_trade_stop_limit(o['tradeId'], is_in_pips=True, is_stop=False, rate=5.0)
         data = None
